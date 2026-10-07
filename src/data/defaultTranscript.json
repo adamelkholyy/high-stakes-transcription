@@ -1,0 +1,5980 @@
+{
+  "audioDuration": 293.86,
+  "segments": [
+    {
+      "id": 0,
+      "speaker": "Speaker",
+      "start": 0.0,
+      "end": 4.18,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "For",
+            "risk": "med",
+            "_whisper_prob": 0.7821,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0028422553106217064,
+              "med": 0.0030570653334785476,
+              "low": 0.9941006793558997
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9349,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020463093974332006,
+              "med": 0.039913943006308066,
+              "low": 0.9396229630193598
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "record,",
+            "risk": "low",
+            "_whisper_prob": 0.8253,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.7377100489873223,
+              "med": 0.228596478088868,
+              "low": 0.033693472923809926
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "this",
+            "risk": "low",
+            "_whisper_prob": 0.9723,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.045122470009387794,
+              "med": 0.05433583932785843,
+              "low": 0.9005416906627537
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "interview",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.46671636525451843,
+              "med": 0.04420273682133423,
+              "low": 0.4890808979241473
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9972,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020996165636409016,
+              "med": 0.0430973086959492,
+              "low": 0.9359065256676417
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "being",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.023201972914609015,
+              "med": 0.02731246641068002,
+              "low": 0.9494855606747109
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "conducted",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.44778894393277774,
+              "med": 0.03675391215763775,
+              "low": 0.5154571439095845
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006741533577157406,
+              "med": 0.014059739157468124,
+              "low": 0.9791987272653745
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Riverside",
+            "risk": "low",
+            "_whisper_prob": 0.9954,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.34619925251326783,
+              "med": 0.4946662340602392,
+              "low": 0.15913451342649299
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "Police",
+            "risk": "low",
+            "_whisper_prob": 0.8516,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.3845446907254157,
+              "med": 0.12318277488837831,
+              "low": 0.492272534386206
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "Station.",
+            "risk": "low",
+            "_whisper_prob": 0.9311,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.19881009448479453,
+              "med": 0.699764714629551,
+              "low": 0.10142519088565453
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 1,
+      "speaker": "Speaker",
+      "start": 8.0,
+      "end": 11.24,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "It",
+            "risk": "low",
+            "_whisper_prob": 0.8952,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.013117964130734334,
+              "med": 0.020003941209385923,
+              "low": 0.9668780946598798
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03924944637155958,
+              "med": 0.02288847236826035,
+              "low": 0.9378620812601802
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "14",
+            "risk": "med",
+            "_whisper_prob": 0.6453,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.8906570940606542,
+              "med": 0.057993487842953224,
+              "low": 0.05134941809639248
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "March,",
+            "risk": "med",
+            "_whisper_prob": 0.6801,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.7383157858974164,
+              "med": 0.23526003032260545,
+              "low": 0.02642418377997811
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.9842,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.836902437623971,
+              "med": 0.1154913148801255,
+              "low": 0.0476062474959035
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": ".42",
+            "risk": "low",
+            "_whisper_prob": 0.9152,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.5790823155298952,
+              "med": 0.37724697150768904,
+              "low": 0.04367071296241573
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "in",
+            "risk": "med",
+            "_whisper_prob": 0.789,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10823010983117631,
+              "med": 0.008965555616176249,
+              "low": 0.8828043345526474
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9967,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.034145255147299165,
+              "med": 0.011392718820291947,
+              "low": 0.9544620260324089
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "morning.",
+            "risk": "low",
+            "_whisper_prob": 0.9948,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7891104298637309,
+              "med": 0.02965488052623261,
+              "low": 0.18123468961003641
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 2,
+      "speaker": "Speaker",
+      "start": 15.56,
+      "end": 17.98,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Please",
+            "risk": "low",
+            "_whisper_prob": 0.9554,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.28678467472769215,
+              "med": 0.38533862509986,
+              "low": 0.32787670017244785
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "state",
+            "risk": "low",
+            "_whisper_prob": 0.9827,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.568422655680848,
+              "med": 0.14027351582494105,
+              "low": 0.29130382849421094
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "your",
+            "risk": "low",
+            "_whisper_prob": 0.9949,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.04700317656383069,
+              "med": 0.023031480122311463,
+              "low": 0.9299653433138578
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "full",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.12876988188355437,
+              "med": 0.30725802310348793,
+              "low": 0.5639720950129576
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "name",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3957429435258705,
+              "med": 0.16786223070419265,
+              "low": 0.4363948257699368
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9945,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0027682927806148617,
+              "med": 0.0012421156254554225,
+              "low": 0.9959895915939296
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.016619589874574573,
+              "med": 0.019405955777652185,
+              "low": 0.9639744543477733
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "record.",
+            "risk": "low",
+            "_whisper_prob": 0.994,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.785882065769871,
+              "med": 0.1651184793717153,
+              "low": 0.04899945485841361
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 3,
+      "speaker": "Speaker",
+      "start": 22.62,
+      "end": 25.94,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "My",
+            "risk": "high",
+            "_whisper_prob": 0.4712,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.016367531496450143,
+              "med": 0.02584936086137333,
+              "low": 0.9577831076421764
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "name",
+            "risk": "low",
+            "_whisper_prob": 0.9855,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3737592648422725,
+              "med": 0.23070444333622805,
+              "low": 0.3955362918214994
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9953,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.013148127940787803,
+              "med": 0.03676989334668574,
+              "low": 0.9500819787125264
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Daniel",
+            "risk": "low",
+            "_whisper_prob": 0.9725,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.6082187773615054,
+              "med": 0.3530367384045705,
+              "low": 0.038744484233924056
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "Hargraves,",
+            "risk": "med",
+            "_whisper_prob": 0.7716,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.33006605932812005,
+              "med": 0.5420807709799329,
+              "low": 0.12785316969194702
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9688,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.00029274317056552366,
+              "med": 0.00036111872604552227,
+              "low": 0.9993461381033889
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0029567910328000715,
+              "med": 0.004439609903390634,
+              "low": 0.9926035990638093
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "live",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.4258319353342,
+              "med": 0.017767635182428614,
+              "low": 0.5564004294833713
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.04117108000438338,
+              "med": 0.018766789994193643,
+              "low": 0.940062130001423
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Millend.",
+            "risk": "med",
+            "_whisper_prob": 0.7403,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.27047890885146136,
+              "med": 0.481327937723817,
+              "low": 0.24819315342472156
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.13982217376296585,
+      "_no_speech_prob": 0.22985270619392395
+    },
+    {
+      "id": 4,
+      "speaker": "Speaker",
+      "start": 31.66,
+      "end": 35.78,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Take",
+            "risk": "low",
+            "_whisper_prob": 0.833,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.724636227144259,
+              "med": 0.2224062012578517,
+              "low": 0.05295757159788927
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "me",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3904610991864138,
+              "med": 0.017641367181778063,
+              "low": 0.591897533631808
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "back",
+            "risk": "low",
+            "_whisper_prob": 0.9984,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.34548524487468374,
+              "med": 0.6065355749714288,
+              "low": 0.04797918015388743
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02585029739519332,
+              "med": 0.023639250774427283,
+              "low": 0.9505104518303794
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "last",
+            "risk": "low",
+            "_whisper_prob": 0.9964,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6044512715686352,
+              "med": 0.18337053926656088,
+              "low": 0.212178189164804
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Saturday",
+            "risk": "low",
+            "_whisper_prob": 0.9787,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.7767715496484171,
+              "med": 0.2091899094416609,
+              "low": 0.014038540909921873
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "evening.",
+            "risk": "low",
+            "_whisper_prob": 0.9918,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.47265739232544596,
+              "med": 0.36905981058827386,
+              "low": 0.15828279708628018
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "What",
+            "risk": "low",
+            "_whisper_prob": 0.9823,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.27192847381107416,
+              "med": 0.576990532796103,
+              "low": 0.15108099339282274
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.18063925623844182,
+              "med": 0.003365481016934226,
+              "low": 0.8159952627446239
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06714839135623663,
+              "med": 0.0090043282549013,
+              "low": 0.923847280388862
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.998,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.8162175429988433,
+              "med": 0.03291774317762119,
+              "low": 0.1508647138235354
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9938,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0518694086743671,
+              "med": 0.02102507168358367,
+              "low": 0.9271055196420492
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09791726062535736,
+              "med": 0.03881833622619727,
+              "low": 0.8632644031484452
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "scene?",
+            "risk": "low",
+            "_whisper_prob": 0.9951,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.5596277401937941,
+              "med": 0.354457136828554,
+              "low": 0.08591512297765194
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.13982217376296585,
+      "_no_speech_prob": 0.22985270619392395
+    },
+    {
+      "id": 5,
+      "speaker": "Speaker",
+      "start": 41.68,
+      "end": 43.68,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "med",
+            "_whisper_prob": 0.6197,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02670239216962236,
+              "med": 0.008834222481583087,
+              "low": 0.9644633853487945
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "told",
+            "risk": "low",
+            "_whisper_prob": 0.9839,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7403016305575233,
+              "med": 0.007459769452280419,
+              "low": 0.2522385999901963
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9958,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.22921389877334203,
+              "med": 0.049193221560545786,
+              "low": 0.7215928796661123
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9513,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03585038333134406,
+              "med": 0.005806959293827315,
+              "low": 0.9583426573748286
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9861,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1871440432959396,
+              "med": 0.0028125543402311272,
+              "low": 0.8100434023638292
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9957,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.9545115780654878,
+              "med": 0.004221062270976562,
+              "low": 0.041267359663535674
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "have",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.18714058539393652,
+              "med": 0.0035347614334256647,
+              "low": 0.8093246531726379
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9974,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.043253596899539525,
+              "med": 0.013221677627010939,
+              "low": 0.9435247254734496
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "gun.",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.9093024175480371,
+              "med": 0.022241281215102486,
+              "low": 0.06845630123686042
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.10768637833771882,
+      "_no_speech_prob": 0.21024702489376068
+    },
+    {
+      "id": 6,
+      "speaker": "Speaker",
+      "start": 49.66,
+      "end": 51.96,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "There",
+            "risk": "low",
+            "_whisper_prob": 0.9177,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.18370218834209248,
+              "med": 0.24623616087123698,
+              "low": 0.5700616507866707
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006813625581681765,
+              "med": 0.005386979567240581,
+              "low": 0.9877993948510778
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9948,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.024733817084722175,
+              "med": 0.010847196438446076,
+              "low": 0.9644189864768319
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.20615183772993476,
+              "med": 0.010100847325837055,
+              "low": 0.7837473149442282
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3247375116846346,
+              "med": 0.5094453490197821,
+              "low": 0.1658171392955834
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9984,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0438616735013842,
+              "med": 0.017793428027710254,
+              "low": 0.9383448984709055
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "door",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.49199793853133766,
+              "med": 0.45560170775288383,
+              "low": 0.05240035371577835
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "holding",
+            "risk": "low",
+            "_whisper_prob": 0.9767,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.7846642073949837,
+              "med": 0.12966152238631237,
+              "low": 0.08567427021870397
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.031018763826267153,
+              "med": 0.007884719788675169,
+              "low": 0.9610965163850577
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "knife.",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.8870871181559384,
+              "med": 0.08177585123252443,
+              "low": 0.031137030611537293
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.10768637833771882,
+      "_no_speech_prob": 0.21024702489376068
+    },
+    {
+      "id": 7,
+      "speaker": "Speaker",
+      "start": 58.64,
+      "end": 60.46,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "high",
+            "_whisper_prob": 0.4484,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03876143241815463,
+              "med": 0.002726050682959753,
+              "low": 0.9585125168988856
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9966,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008190535192763136,
+              "med": 0.004260082078400541,
+              "low": 0.9875493827288364
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "recognize",
+            "risk": "low",
+            "_whisper_prob": 0.8581,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3482267248357821,
+              "med": 0.3151347086996754,
+              "low": 0.3366385664645425
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9681,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.026786014851459088,
+              "med": 0.0274491797890271,
+              "low": 0.9457648053595139
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9674,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007149402874308554,
+              "med": 0.007735642473746539,
+              "low": 0.9851149546519449
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "all?",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09234379509057673,
+              "med": 0.13992278188055923,
+              "low": 0.767733423028864
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.12855684280395507,
+      "_no_speech_prob": 0.24212591350078583
+    },
+    {
+      "id": 8,
+      "speaker": "Speaker",
+      "start": 65.78,
+      "end": 68.66,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "No,",
+            "risk": "low",
+            "_whisper_prob": 0.9209,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.8735540852569262,
+              "med": 0.013028692303011473,
+              "low": 0.1134172224400623
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9471,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008009349489826394,
+              "med": 0.022935517553697264,
+              "low": 0.9690551329564764
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007542957313457265,
+              "med": 0.008069934894527179,
+              "low": 0.9843871077920155
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "too",
+            "risk": "low",
+            "_whisper_prob": 0.9908,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.08750741170394405,
+              "med": 0.32720020376283615,
+              "low": 0.5852923845332199
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "dark",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.12173024834041236,
+              "med": 0.7586232801720306,
+              "low": 0.11964647148755697
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.015402387939497279,
+              "med": 0.01499317926906697,
+              "low": 0.9696044327914357
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6147660769196616,
+              "med": 0.04691372536016361,
+              "low": 0.3383201977201748
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.021896028600280466,
+              "med": 0.015005225720107943,
+              "low": 0.9630987456796116
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "face",
+            "risk": "low",
+            "_whisper_prob": 0.9998,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.511717443801873,
+              "med": 0.03496789179972826,
+              "low": 0.4533146643983988
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "clearly.",
+            "risk": "low",
+            "_whisper_prob": 0.9898,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.10969178307329243,
+              "med": 0.6720392430196694,
+              "low": 0.21826897390703817
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.12855684280395507,
+      "_no_speech_prob": 0.24212591350078583
+    },
+    {
+      "id": 9,
+      "speaker": "Speaker",
+      "start": 74.56,
+      "end": 79.4,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Thank",
+            "risk": "high",
+            "_whisper_prob": 0.4324,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1849303369833243,
+              "med": 0.14385324936396665,
+              "low": 0.671216413652709
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you.",
+            "risk": "low",
+            "_whisper_prob": 0.9283,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008155722208583441,
+              "med": 0.0027135881065789252,
+              "low": 0.9891306896848376
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "We",
+            "risk": "low",
+            "_whisper_prob": 0.9381,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006317349457380206,
+              "med": 0.00950678229971636,
+              "low": 0.9841758682429034
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "will",
+            "risk": "low",
+            "_whisper_prob": 0.9911,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10751291829610808,
+              "med": 0.028484487526739936,
+              "low": 0.8640025941771519
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "continue",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06882844026788064,
+              "med": 0.11089704107429066,
+              "low": 0.8202745186578287
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9969,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0011248535264654913,
+              "med": 0.0005791692985377232,
+              "low": 0.9982959771749969
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006096677303284814,
+              "med": 0.004000772178474499,
+              "low": 0.9899025505182407
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "few",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.04894010644741418,
+              "med": 0.7811851240285307,
+              "low": 0.1698747695240551
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "more",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.14301537570284062,
+              "med": 0.4548298676678917,
+              "low": 0.40215475662926764
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "details",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.2643816712342816,
+              "med": 0.05066688450594821,
+              "low": 0.6849514442597702
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "before",
+            "risk": "low",
+            "_whisper_prob": 0.9931,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.2660803865822206,
+              "med": 0.00976305519023074,
+              "low": 0.7241565582275487
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "closing",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.30298599202616266,
+              "med": 0.4508980132816669,
+              "low": 0.2461159946921704
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01085655715641525,
+              "med": 0.007425778408093864,
+              "low": 0.9817176644354908
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "interview.",
+            "risk": "low",
+            "_whisper_prob": 0.9967,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.31865541926900487,
+              "med": 0.012016118358448263,
+              "low": 0.6693284623725468
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.11638524532318115,
+      "_no_speech_prob": 0.595245361328125
+    },
+    {
+      "id": 10,
+      "speaker": "Speaker",
+      "start": 83.44,
+      "end": 89.08,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "You",
+            "risk": "low",
+            "_whisper_prob": 0.9161,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01089365265827413,
+              "med": 0.015459894081680184,
+              "low": 0.9736464532600458
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.11977448258585009,
+              "med": 0.042844601217480245,
+              "low": 0.8373809161966698
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9964,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008365549062131621,
+              "med": 0.008462553648609603,
+              "low": 0.9831718972892587
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "arrived",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1275755457792269,
+              "med": 0.06520067898995917,
+              "low": 0.807223775230814
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "shortly",
+            "risk": "low",
+            "_whisper_prob": 0.9893,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.08041546557372452,
+              "med": 0.12833078150471688,
+              "low": 0.7912537529215588
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9911,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.038111075236316946,
+              "med": 0.005924154327988253,
+              "low": 0.9559647704356948
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "half",
+            "risk": "low",
+            "_whisper_prob": 0.9644,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.23798842953116847,
+              "med": 0.4956169268869801,
+              "low": 0.2663946435818515
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "past",
+            "risk": "low",
+            "_whisper_prob": 0.9209,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.17882341903881924,
+              "med": 0.3561797526000926,
+              "low": 0.4649968283610882
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "9.",
+            "risk": "high",
+            "_whisper_prob": 0.373,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.27144445058752303,
+              "med": 0.6271574954371903,
+              "low": 0.10139805397528655
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "How",
+            "risk": "low",
+            "_whisper_prob": 0.9891,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09704387360523538,
+              "med": 0.3105128422378653,
+              "low": 0.5924432841568993
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "sure",
+            "risk": "low",
+            "_whisper_prob": 0.9857,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.027285691431962206,
+              "med": 0.9015438217194585,
+              "low": 0.07117048684857921
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "are",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.005470086057145184,
+              "med": 0.026332653982675657,
+              "low": 0.968197259960179
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007339153855894305,
+              "med": 0.008863838383242438,
+              "low": 0.9837970077608632
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "about",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0189130313223496,
+              "med": 0.01610983683137748,
+              "low": 0.964977131846273
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020001529405362428,
+              "med": 0.01588068461925632,
+              "low": 0.9641177859753812
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "time?",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06081722453440959,
+              "med": 0.03829109798832251,
+              "low": 0.900891677477268
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.11638524532318115,
+      "_no_speech_prob": 0.595245361328125
+    },
+    {
+      "id": 11,
+      "speaker": "Speaker",
+      "start": 93.64,
+      "end": 97.62,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "med",
+            "_whisper_prob": 0.6717,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.011139248796859506,
+              "med": 0.008385995275292208,
+              "low": 0.9804747559278483
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "checked",
+            "risk": "low",
+            "_whisper_prob": 0.9803,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3328643861344532,
+              "med": 0.3899642770111991,
+              "low": 0.27717133685434775
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "my",
+            "risk": "low",
+            "_whisper_prob": 0.9959,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06199404357090269,
+              "med": 0.018108561729161404,
+              "low": 0.9198973946999359
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "phone",
+            "risk": "low",
+            "_whisper_prob": 0.9972,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6679117688463068,
+              "med": 0.053847019530126904,
+              "low": 0.27824121162356624
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "when",
+            "risk": "low",
+            "_whisper_prob": 0.9918,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10807340507223182,
+              "med": 0.008818155367382823,
+              "low": 0.8831084395603854
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9413,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.013841757593083596,
+              "med": 0.0051204178263550065,
+              "low": 0.9810378245805613
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "got",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.2303034505451874,
+              "med": 0.0018384418776693035,
+              "low": 0.7678581075771432
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "off",
+            "risk": "low",
+            "_whisper_prob": 0.9939,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.32625030816871975,
+              "med": 0.2858570876850213,
+              "low": 0.387892604146259
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.027517420600136032,
+              "med": 0.03192898118668331,
+              "low": 0.9405535982131806
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bus,",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.5384193831157774,
+              "med": 0.37521900673607844,
+              "low": 0.08636161014814413
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9748,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0017294824129221737,
+              "med": 0.0003761484028531745,
+              "low": 0.9978943691842247
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9924,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.015987813893867647,
+              "med": 0.016351458627342743,
+              "low": 0.9676607274787896
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.9958,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3234962487443001,
+              "med": 0.01818980919645629,
+              "low": 0.6583139420592437
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.8818,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.6406473485110615,
+              "med": 0.2974667658969489,
+              "low": 0.06188588559198965
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": ".36.",
+            "risk": "med",
+            "_whisper_prob": 0.7163,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.5370668891512406,
+              "med": 0.3683153278518014,
+              "low": 0.094617782996958
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06310021600057912,
+      "_no_speech_prob": 0.5830132365226746
+    },
+    {
+      "id": 12,
+      "speaker": "Speaker",
+      "start": 103.72,
+      "end": 108.4,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Which",
+            "risk": "low",
+            "_whisper_prob": 0.827,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.20676337169196607,
+              "med": 0.15824257590873356,
+              "low": 0.6349940523993004
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bus",
+            "risk": "low",
+            "_whisper_prob": 0.9898,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3775182757525013,
+              "med": 0.5236244942860333,
+              "low": 0.09885722996146538
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "stop",
+            "risk": "low",
+            "_whisper_prob": 0.9924,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.2527048790965286,
+              "med": 0.6524572877793279,
+              "low": 0.09483783312414341
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9936,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.042792058098209594,
+              "med": 0.0034956204133261503,
+              "low": 0.9537123214884643
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.017324117452934024,
+              "med": 0.005881174781789757,
+              "low": 0.9767947077652762
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "use?",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6144398579999275,
+              "med": 0.09909611688774819,
+              "low": 0.2864640251123244
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "The",
+            "risk": "low",
+            "_whisper_prob": 0.9475,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.011680489068563385,
+              "med": 0.031137019647966654,
+              "low": 0.95718249128347
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "one",
+            "risk": "low",
+            "_whisper_prob": 0.9965,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.16065303973767694,
+              "med": 0.19930936214012582,
+              "low": 0.6400375981221974
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "outside",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.11326740946540945,
+              "med": 0.8261418339296737,
+              "low": 0.06059075660491677
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9929,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.014549146435768266,
+              "med": 0.03791598432619194,
+              "low": 0.9475348692380399
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "pharmacy",
+            "risk": "low",
+            "_whisper_prob": 0.9642,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.17317362855178797,
+              "med": 0.787002360179122,
+              "low": 0.039824011269090145
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9698,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.009266957824920036,
+              "med": 0.011043464778196342,
+              "low": 0.9796895773968837
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9965,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.010629208971769222,
+              "med": 0.037180714087117456,
+              "low": 0.9521900769411132
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "one",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.13961699060081856,
+              "med": 0.21773653058828563,
+              "low": 0.6426464788108958
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.009239912173485553,
+              "med": 0.004798101985905942,
+              "low": 0.9859619858406085
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008842314452821924,
+              "med": 0.03673283320464786,
+              "low": 0.9544248523425303
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bridge?",
+            "risk": "low",
+            "_whisper_prob": 0.9883,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3541375416475931,
+              "med": 0.27740349476001347,
+              "low": 0.3684589635923935
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06310021600057912,
+      "_no_speech_prob": 0.5830132365226746
+    },
+    {
+      "id": 13,
+      "speaker": "Speaker",
+      "start": 112.54,
+      "end": 117.02,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "The",
+            "risk": "high",
+            "_whisper_prob": 0.4062,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.009137668097548771,
+              "med": 0.07139401079458939,
+              "low": 0.9194683211078618
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "stop",
+            "risk": "med",
+            "_whisper_prob": 0.7106,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.1446810088893424,
+              "med": 0.7572645448813239,
+              "low": 0.09805444622933367
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9778,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008419919342307226,
+              "med": 0.007383135632587208,
+              "low": 0.9841969450251056
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9696,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0094297423781431,
+              "med": 0.0570614041722818,
+              "low": 0.9335088534495749
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bridge.",
+            "risk": "low",
+            "_whisper_prob": 0.9552,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.2889985162559612,
+              "med": 0.3811463536964514,
+              "low": 0.3298551300475875
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9728,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.003927358970908166,
+              "med": 0.009800181482243056,
+              "low": 0.986272459546849
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "remember",
+            "risk": "low",
+            "_whisper_prob": 0.9968,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.06044490809350075,
+              "med": 0.6845672671806452,
+              "low": 0.254987824725854
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "because",
+            "risk": "low",
+            "_whisper_prob": 0.988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01613738826771484,
+              "med": 0.130095855161259,
+              "low": 0.8537667565710263
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9732,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.009938679500764143,
+              "med": 0.05717980326573215,
+              "low": 0.9328815172335039
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "street",
+            "risk": "low",
+            "_whisper_prob": 0.9882,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.050999305687086154,
+              "med": 0.9386783200555098,
+              "low": 0.010322374257404003
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "light",
+            "risk": "med",
+            "_whisper_prob": 0.6225,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.17117026235473887,
+              "med": 0.42148038750667866,
+              "low": 0.40734935013858253
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "there",
+            "risk": "low",
+            "_whisper_prob": 0.9687,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10051768910369378,
+              "med": 0.34445229454483095,
+              "low": 0.5550300163514753
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.003894709154654795,
+              "med": 0.015359434114541116,
+              "low": 0.9807458567308043
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "flickering.",
+            "risk": "low",
+            "_whisper_prob": 0.9953,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.21877120837646125,
+              "med": 0.6723653636995457,
+              "low": 0.10886342792399308
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.0766159560945299,
+      "_no_speech_prob": 0.1952638477087021
+    },
+    {
+      "id": 14,
+      "speaker": "Speaker",
+      "start": 121.64,
+      "end": 124.84,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "When",
+            "risk": "low",
+            "_whisper_prob": 0.87,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.07121338108004781,
+              "med": 0.008879061505587097,
+              "low": 0.9199075574143649
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9959,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.026702548763672423,
+              "med": 0.003738391434729361,
+              "low": 0.9695590598015982
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "walked",
+            "risk": "med",
+            "_whisper_prob": 0.7269,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5917319680388319,
+              "med": 0.05879968154640883,
+              "low": 0.3494683504147593
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "toward",
+            "risk": "low",
+            "_whisper_prob": 0.9447,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.2859149032137879,
+              "med": 0.4282618311905231,
+              "low": 0.28582326559568905
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02287276336183337,
+              "med": 0.01647358618866084,
+              "low": 0.9606536504495057
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "shop,",
+            "risk": "low",
+            "_whisper_prob": 0.892,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.4986592305230654,
+              "med": 0.22023800412292466,
+              "low": 0.28110276535401
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "where",
+            "risk": "low",
+            "_whisper_prob": 0.9851,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.21492363870055306,
+              "med": 0.351695319927597,
+              "low": 0.43338104137184996
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007057186750433502,
+              "med": 0.004399427445142687,
+              "low": 0.9885433858044239
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9959,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020209264534035463,
+              "med": 0.017726675913738672,
+              "low": 0.9620640595522258
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.9884,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.154822377508225,
+              "med": 0.007998650873924554,
+              "low": 0.8371789716178504
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "standing?",
+            "risk": "low",
+            "_whisper_prob": 0.9936,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5695989846905538,
+              "med": 0.03154010043706149,
+              "low": 0.3988609148723847
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.0766159560945299,
+      "_no_speech_prob": 0.1952638477087021
+    },
+    {
+      "id": 15,
+      "speaker": "Speaker",
+      "start": 130.08,
+      "end": 135.42,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "He",
+            "risk": "high",
+            "_whisper_prob": 0.0882,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01364854170141631,
+              "med": 0.01691748821141517,
+              "low": 0.9694339700871685
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9637,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.010843564016623128,
+              "med": 0.007236280034975495,
+              "low": 0.9819201559484014
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "standing",
+            "risk": "low",
+            "_whisper_prob": 0.9611,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6933853069078709,
+              "med": 0.03679698274023177,
+              "low": 0.2698177103518972
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "just",
+            "risk": "low",
+            "_whisper_prob": 0.9912,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.01725263643161883,
+              "med": 0.9406058972045958,
+              "low": 0.04214146636378537
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "inside",
+            "risk": "low",
+            "_whisper_prob": 0.9969,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3745212246486592,
+              "med": 0.4785520808925693,
+              "low": 0.1469266944587715
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.040522678154975414,
+              "med": 0.02281406579523732,
+              "low": 0.9366632560497874
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "doorway,",
+            "risk": "low",
+            "_whisper_prob": 0.9812,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.48473218853066463,
+              "med": 0.4494753828086611,
+              "low": 0.06579242866067428
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "with",
+            "risk": "low",
+            "_whisper_prob": 0.9907,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.017632286801322207,
+              "med": 0.00661381365769237,
+              "low": 0.9757538995409856
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9977,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.037188099119375616,
+              "med": 0.014748352703405885,
+              "low": 0.9480635481772184
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "right",
+            "risk": "low",
+            "_whisper_prob": 0.9956,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1762633366912626,
+              "med": 0.2146032008717835,
+              "low": 0.6091334624369539
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "hand",
+            "risk": "low",
+            "_whisper_prob": 0.9741,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.8685759720349534,
+              "med": 0.07405126543168973,
+              "low": 0.0573727625333567
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "low",
+            "risk": "low",
+            "_whisper_prob": 0.9238,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.4413847461090863,
+              "med": 0.20712343746494236,
+              "low": 0.35149181642597127
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.038817142297523165,
+              "med": 0.0037747822992972883,
+              "low": 0.9574080754031794
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.05467264960818483,
+              "med": 0.015533019205680853,
+              "low": 0.9297943311861343
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "coat",
+            "risk": "low",
+            "_whisper_prob": 0.9918,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5636169688251241,
+              "med": 0.19564835549557155,
+              "low": 0.24073467567930426
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "pocket.",
+            "risk": "low",
+            "_whisper_prob": 0.9842,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.8552078670059637,
+              "med": 0.09965654017802754,
+              "low": 0.045135592816008596
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.0627019272910224,
+      "_no_speech_prob": 0.4246339201927185
+    },
+    {
+      "id": 16,
+      "speaker": "Speaker",
+      "start": 141.56,
+      "end": 145.06,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "med",
+            "_whisper_prob": 0.5202,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.07398213251745589,
+              "med": 0.0050188940890555775,
+              "low": 0.9209989733934884
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.026136647124637712,
+              "med": 0.008304394377869331,
+              "low": 0.9655589584974931
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5596601604047482,
+              "med": 0.06654064435998872,
+              "low": 0.37379919523526306
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9961,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5162148865309695,
+              "med": 0.1273336685157691,
+              "low": 0.3564514449532615
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.11233167169699106,
+              "med": 0.025383355740977324,
+              "low": 0.8622849725620316
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.08546555424381735,
+              "med": 0.014991818024186228,
+              "low": 0.8995426277319964
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "hand",
+            "risk": "low",
+            "_whisper_prob": 0.9987,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.7853422393826083,
+              "med": 0.14479985403651152,
+              "low": 0.06985790658088029
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "before",
+            "risk": "low",
+            "_whisper_prob": 0.9963,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.512187489361755,
+              "med": 0.0321706355932789,
+              "low": 0.45564187504496617
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9972,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02805717546264911,
+              "med": 0.033255280534439886,
+              "low": 0.9386875440029111
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "shouting",
+            "risk": "low",
+            "_whisper_prob": 0.9935,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.33614034354679917,
+              "med": 0.30265420378330965,
+              "low": 0.3612054526698911
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "started?",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.27542566882061265,
+              "med": 0.08043379674963384,
+              "low": 0.6441405344297535
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.0627019272910224,
+      "_no_speech_prob": 0.4246339201927185
+    },
+    {
+      "id": 17,
+      "speaker": "Speaker",
+      "start": 150.6,
+      "end": 155.18,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.2261,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03283768958265227,
+              "med": 0.024065469645129785,
+              "low": 0.9430968407722178
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "saw",
+            "risk": "low",
+            "_whisper_prob": 0.8885,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.8390444779608396,
+              "med": 0.04539162489383062,
+              "low": 0.11556389714532984
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "something",
+            "risk": "low",
+            "_whisper_prob": 0.9697,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.197116588104653,
+              "med": 0.4284087149352477,
+              "low": 0.3744746969600994
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "silver,",
+            "risk": "low",
+            "_whisper_prob": 0.9574,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.526207491953547,
+              "med": 0.3773189320831893,
+              "low": 0.09647357596326366
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "but",
+            "risk": "low",
+            "_whisper_prob": 0.975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10278229794389808,
+              "med": 0.020515305328330197,
+              "low": 0.8767023967277716
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9668,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03678181729415987,
+              "med": 0.01537902752228993,
+              "low": 0.9478391551835501
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "cannot",
+            "risk": "low",
+            "_whisper_prob": 0.9336,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.873337805129386,
+              "med": 0.10313950065614202,
+              "low": 0.023522694214472076
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "swear",
+            "risk": "low",
+            "_whisper_prob": 0.9918,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.6024373030027219,
+              "med": 0.36418288047213776,
+              "low": 0.033379816525140396
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9738,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03963616924823216,
+              "med": 0.06711022804779991,
+              "low": 0.8932536027039679
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9968,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0334051918583957,
+              "med": 0.023844897671239863,
+              "low": 0.9427499104703645
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9914,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0869371796624329,
+              "med": 0.042175292021387624,
+              "low": 0.8708875283161794
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "knife",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.859913118421954,
+              "med": 0.13341285939029843,
+              "low": 0.006674022187747721
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "until",
+            "risk": "low",
+            "_whisper_prob": 0.9818,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0662989440118783,
+              "med": 0.02841571503120395,
+              "low": 0.9052853409569177
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9947,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.043942608990187246,
+              "med": 0.04429532069329261,
+              "low": 0.91176207031652
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7593789950199106,
+              "med": 0.10702911280334097,
+              "low": 0.1335918921767485
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "it.",
+            "risk": "low",
+            "_whisper_prob": 0.8711,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.052701740460470145,
+              "med": 0.05910218262834796,
+              "low": 0.8881960769111819
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07074299225440392,
+      "_no_speech_prob": 0.2017870545387268
+    },
+    {
+      "id": 18,
+      "speaker": "Speaker",
+      "start": 162.66,
+      "end": 166.44,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "So",
+            "risk": "med",
+            "_whisper_prob": 0.792,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.14058277501736285,
+              "med": 0.1267974666180626,
+              "low": 0.7326197583645746
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "your",
+            "risk": "low",
+            "_whisper_prob": 0.9158,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.14092206981324693,
+              "med": 0.025595578417391934,
+              "low": 0.833482351769361
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "first",
+            "risk": "low",
+            "_whisper_prob": 0.9954,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7350218152975336,
+              "med": 0.04410842111895102,
+              "low": 0.22086976358351543
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "clear",
+            "risk": "low",
+            "_whisper_prob": 0.9837,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3290857568106524,
+              "med": 0.3607711816499164,
+              "low": 0.31014306153943116
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "view",
+            "risk": "low",
+            "_whisper_prob": 0.9945,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.9496347309364644,
+              "med": 0.025249898732675014,
+              "low": 0.025115370330860583
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "of",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0036253951438298517,
+              "med": 0.0009066108034373055,
+              "low": 0.995467994052733
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9968,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.07987639166760027,
+              "med": 0.016965929743435672,
+              "low": 0.9031576785889639
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "knife",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.9500880199120104,
+              "med": 0.03782694988697827,
+              "low": 0.012085030201011367
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.023474499587243663,
+              "med": 0.005827155029406865,
+              "low": 0.9706983453833496
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9913,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.22360913415390954,
+              "med": 0.0033122826106850166,
+              "low": 0.7730785832354055
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.034877025983542455,
+              "med": 0.008195431989341171,
+              "low": 0.9569275420271163
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7873073936795855,
+              "med": 0.0290364534957516,
+              "low": 0.18365615282466294
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09698161594439422,
+              "med": 0.011323592666118624,
+              "low": 0.8916947913894872
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "hand?",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.9147218797979212,
+              "med": 0.04920343187470969,
+              "low": 0.03607468832736911
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07074299225440392,
+      "_no_speech_prob": 0.2017870545387268
+    },
+    {
+      "id": 19,
+      "speaker": "Speaker",
+      "start": 171.62,
+      "end": 176.66,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Yes,",
+            "risk": "high",
+            "_whisper_prob": 0.0997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.16510246534590084,
+              "med": 0.15717348155021804,
+              "low": 0.6777240531038811
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9815,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06768459045124628,
+              "med": 0.006855345667011249,
+              "low": 0.9254600638817424
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9932,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008649291370399036,
+              "med": 0.012268877803969812,
+              "low": 0.979081830825631
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.9657,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5132357716120642,
+              "med": 0.08213670970896078,
+              "low": 0.404627518678975
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "it.",
+            "risk": "low",
+            "_whisper_prob": 0.8234,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.012979596977484117,
+              "med": 0.02058809685422622,
+              "low": 0.9664323061682896
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Before",
+            "risk": "low",
+            "_whisper_prob": 0.8154,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.4477775232917068,
+              "med": 0.027381991930983354,
+              "low": 0.5248404847773098
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that,",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.04738067382746223,
+              "med": 0.014086759917145914,
+              "low": 0.9385325662553919
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9756,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0073717475718564135,
+              "med": 0.005071665254931,
+              "low": 0.9875565871732126
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "only",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.04056518529381242,
+              "med": 0.8848247654144153,
+              "low": 0.0746100492917723
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "saw",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6512038322829432,
+              "med": 0.034460312813808944,
+              "low": 0.3143358549032478
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9928,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.021406340632145308,
+              "med": 0.024601288165568107,
+              "low": 0.9539923712022865
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "shine",
+            "risk": "low",
+            "_whisper_prob": 0.9575,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.26747095098228146,
+              "med": 0.11060942782031707,
+              "low": 0.6219196211974015
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.9957,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.22401429944843068,
+              "med": 0.6193522163520098,
+              "low": 0.15663348419955958
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.023523521592081254,
+              "med": 0.016002475822379646,
+              "low": 0.9604740025855393
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "sleeve.",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6202443308775031,
+              "med": 0.1511555276569578,
+              "low": 0.2286001414655391
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.058393280680586655,
+      "_no_speech_prob": 0.16858166456222534
+    },
+    {
+      "id": 20,
+      "speaker": "Speaker",
+      "start": 181.52,
+      "end": 186.7,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "You",
+            "risk": "high",
+            "_whisper_prob": 0.224,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.023275114172783523,
+              "med": 0.007050340896110836,
+              "low": 0.9696745449311056
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "also",
+            "risk": "low",
+            "_whisper_prob": 0.9963,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.030868048557930888,
+              "med": 0.02613824778513324,
+              "low": 0.942993703656936
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "mentioned",
+            "risk": "low",
+            "_whisper_prob": 0.9959,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.20453145240382892,
+              "med": 0.1810093621993009,
+              "low": 0.6144591853968702
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "another",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.23073697205891736,
+              "med": 0.4605319752559119,
+              "low": 0.3087310526851708
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "person",
+            "risk": "low",
+            "_whisper_prob": 0.9956,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5240665831580833,
+              "med": 0.09093819490216944,
+              "low": 0.38499522193974717
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.9952,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.2707266208453531,
+              "med": 0.5504225393107772,
+              "low": 0.17885083984386968
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9948,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02561465348343411,
+              "med": 0.021717733446141068,
+              "low": 0.9526676130704249
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "cash",
+            "risk": "low",
+            "_whisper_prob": 0.9701,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.6263536069959793,
+              "med": 0.18834083941471547,
+              "low": 0.1853055535893054
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "machine.",
+            "risk": "low",
+            "_whisper_prob": 0.9941,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.42376750526678153,
+              "med": 0.17389036171613853,
+              "low": 0.4023421330170799
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "Can",
+            "risk": "low",
+            "_whisper_prob": 0.9959,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.1271574887560488,
+              "med": 0.5449271416409706,
+              "low": 0.32791536960298057
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.030357499826938684,
+              "med": 0.00438033832781886,
+              "low": 0.9652621618452425
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "describe",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.16216994448213262,
+              "med": 0.032235389128476816,
+              "low": 0.8055946663893906
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.05082403708854654,
+              "med": 0.006800800637194178,
+              "low": 0.9423751622742591
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "person?",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.47688555712594416,
+              "med": 0.093023623394369,
+              "low": 0.43009081947968697
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.058393280680586655,
+      "_no_speech_prob": 0.16858166456222534
+    },
+    {
+      "id": 21,
+      "speaker": "Speaker",
+      "start": 191.5,
+      "end": 197.24,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "There",
+            "risk": "high",
+            "_whisper_prob": 0.4565,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1626130386979459,
+              "med": 0.3454636614232777,
+              "low": 0.4919232998787763
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006130594968495133,
+              "med": 0.009408514002528215,
+              "low": 0.9844608910289768
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.019970769877503868,
+              "med": 0.01880567454054215,
+              "low": 0.9612235555819542
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "woman",
+            "risk": "low",
+            "_whisper_prob": 0.9923,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6567640571213461,
+              "med": 0.14882425618318862,
+              "low": 0.19441168669546532
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.10450249861556651,
+              "med": 0.0315302820098922,
+              "low": 0.8639672193745412
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03137216317065079,
+              "med": 0.018620439133930602,
+              "low": 0.9500073976954186
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "green",
+            "risk": "low",
+            "_whisper_prob": 0.9955,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.3712070251403756,
+              "med": 0.5108987260284912,
+              "low": 0.1178942488311333
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "jacket,",
+            "risk": "low",
+            "_whisper_prob": 0.9942,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5742176318480428,
+              "med": 0.16156342773083612,
+              "low": 0.26421894042112115
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "maybe",
+            "risk": "low",
+            "_whisper_prob": 0.9826,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.004766439239134784,
+              "med": 0.9853916520144236,
+              "low": 0.009841908746441662
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "30",
+            "risk": "low",
+            "_whisper_prob": 0.8223,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.47947765589000524,
+              "med": 0.28519210687644647,
+              "low": 0.2353302372335483
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "years",
+            "risk": "low",
+            "_whisper_prob": 0.9847,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.2504480817737015,
+              "med": 0.12512228588851998,
+              "low": 0.6244296323377786
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "old,",
+            "risk": "low",
+            "_whisper_prob": 0.9836,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.5484988529755338,
+              "med": 0.2409010992821521,
+              "low": 0.21060004774231406
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "standing",
+            "risk": "low",
+            "_whisper_prob": 0.9954,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5566924755560247,
+              "med": 0.07485300001942333,
+              "low": 0.3684545244245519
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "beside",
+            "risk": "low",
+            "_whisper_prob": 0.9947,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.03862226552320295,
+              "med": 0.8376388970815122,
+              "low": 0.1237388373952849
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02734165255299515,
+              "med": 0.033937890587279286,
+              "low": 0.9387204568597256
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "cash",
+            "risk": "low",
+            "_whisper_prob": 0.9786,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.6696273148526348,
+              "med": 0.17882327318712254,
+              "low": 0.15154941196024257
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "machine.",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.40136791413055584,
+              "med": 0.21798650341780512,
+              "low": 0.38064558245163904
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06250402801915218,
+      "_no_speech_prob": 0.20026034116744995
+    },
+    {
+      "id": 22,
+      "speaker": "Speaker",
+      "start": 203.58,
+      "end": 206.3,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "low",
+            "_whisper_prob": 0.8932,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09099315282457464,
+              "med": 0.0092027755992336,
+              "low": 0.8998040715761918
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "she",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007879031790316465,
+              "med": 0.020716144639320495,
+              "low": 0.971404823570363
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "speak",
+            "risk": "low",
+            "_whisper_prob": 0.9971,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.47932103884940264,
+              "med": 0.2457530864368238,
+              "low": 0.27492587471377355
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01634366728166921,
+              "med": 0.026061025083208282,
+              "low": 0.9575953076351225
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9987,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03703102799659544,
+              "med": 0.06931721732759949,
+              "low": 0.8936517546758049
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.9956,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.25259963671260593,
+              "med": 0.027832293531174144,
+              "low": 0.7195680697562199
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.8843,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.026560982539625164,
+              "med": 0.015759587109318105,
+              "low": 0.9576794303510566
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "appear",
+            "risk": "low",
+            "_whisper_prob": 0.9925,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.5689895035520509,
+              "med": 0.22480944860342617,
+              "low": 0.20620104784452298
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9994,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.021136554978639654,
+              "med": 0.03242711986977888,
+              "low": 0.9464363251515815
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "know",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5003518147567892,
+              "med": 0.0892868199914371,
+              "low": 0.4103613652517737
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "him?",
+            "risk": "low",
+            "_whisper_prob": 0.9984,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.07642214480782163,
+              "med": 0.10751659805895117,
+              "low": 0.8160612571332273
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06250402801915218,
+      "_no_speech_prob": 0.20026034116744995
+    },
+    {
+      "id": 23,
+      "speaker": "Speaker",
+      "start": 211.56,
+      "end": 216.2,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.439,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.014355768750642288,
+              "med": 0.01968975970613354,
+              "low": 0.9659544715432243
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "do",
+            "risk": "low",
+            "_whisper_prob": 0.8627,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.017906042686809794,
+              "med": 0.05862924486066844,
+              "low": 0.9234647124525217
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9939,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.8962578458137566,
+              "med": 0.019707933421356336,
+              "low": 0.0840342207648871
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "think",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.026127698787424127,
+              "med": 0.9380308046299014,
+              "low": 0.035841496582674486
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "so.",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.11534190526117155,
+              "med": 0.2053102332980767,
+              "low": 0.6793478614407518
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "She",
+            "risk": "low",
+            "_whisper_prob": 0.9599,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.009556241295562646,
+              "med": 0.02151471154334879,
+              "low": 0.9689290471610884
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "stepped",
+            "risk": "low",
+            "_whisper_prob": 0.9892,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.6164995779614179,
+              "med": 0.2941296443072291,
+              "low": 0.089370777731353
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "back",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.19999759154430194,
+              "med": 0.7638284591434655,
+              "low": 0.03617394931223253
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9938,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0018247225924938563,
+              "med": 0.00121918073655433,
+              "low": 0.9969560966709516
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "looked",
+            "risk": "low",
+            "_whisper_prob": 0.9966,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.05349753045091413,
+              "med": 0.9303983944954388,
+              "low": 0.01610407505364704
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "frightened",
+            "risk": "low",
+            "_whisper_prob": 0.9812,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7124177368711683,
+              "med": 0.11204544627064845,
+              "low": 0.17553681685818323
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "when",
+            "risk": "low",
+            "_whisper_prob": 0.9878,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1615955313872453,
+              "med": 0.023839463540076572,
+              "low": 0.8145650050726779
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020645006097052363,
+              "med": 0.030156041339965963,
+              "low": 0.9491989525629816
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "turned",
+            "risk": "low",
+            "_whisper_prob": 0.9975,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7772373794989299,
+              "med": 0.09593532999088938,
+              "low": 0.12682729051018068
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "around.",
+            "risk": "low",
+            "_whisper_prob": 0.9987,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.03988558061466076,
+              "med": 0.8509685270747938,
+              "low": 0.10914589231054544
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06911660685683742,
+      "_no_speech_prob": 0.16857203841209412
+    },
+    {
+      "id": 24,
+      "speaker": "Speaker",
+      "start": 221.6,
+      "end": 224.28,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "low",
+            "_whisper_prob": 0.8186,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.053983753225083385,
+              "med": 0.003058919104585357,
+              "low": 0.9429573276703314
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01651643158254169,
+              "med": 0.0047722362062594436,
+              "low": 0.978711332211199
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "hear",
+            "risk": "low",
+            "_whisper_prob": 0.9974,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.14427760331551662,
+              "med": 0.288355314338146,
+              "low": 0.5673670823463374
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.019518427467621467,
+              "med": 0.013776230747888618,
+              "low": 0.9667053417844897
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "exact",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.12244462884763294,
+              "med": 0.6846173968332683,
+              "low": 0.1929379743190989
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "words",
+            "risk": "low",
+            "_whisper_prob": 0.9987,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1929075938501945,
+              "med": 0.08414680438516829,
+              "low": 0.7229456017646372
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.04187291744680985,
+              "med": 0.006227956218545717,
+              "low": 0.9518991263346445
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "were",
+            "risk": "low",
+            "_whisper_prob": 0.9934,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007198274061133485,
+              "med": 0.002091929515093882,
+              "low": 0.9907097964237725
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "shouted?",
+            "risk": "low",
+            "_whisper_prob": 0.9928,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5799763671344733,
+              "med": 0.10394271456097735,
+              "low": 0.3160809183045493
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.06911660685683742,
+      "_no_speech_prob": 0.16857203841209412
+    },
+    {
+      "id": 25,
+      "speaker": "Speaker",
+      "start": 230.64,
+      "end": 235.02,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.198,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.020293569369506652,
+              "med": 0.015465714110529563,
+              "low": 0.9642407165199637
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "heard",
+            "risk": "low",
+            "_whisper_prob": 0.9097,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.36579987327428964,
+              "med": 0.3500943847645421,
+              "low": 0.28410574196116833
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9783,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.1135956138216737,
+              "med": 0.08759601646447145,
+              "low": 0.7988083697138547
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "say",
+            "risk": "low",
+            "_whisper_prob": 0.9949,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.45653055208484383,
+              "med": 0.26448536217213753,
+              "low": 0.2789840857430187
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "give",
+            "risk": "high",
+            "_whisper_prob": 0.4666,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5656134310460529,
+              "med": 0.20520301339962724,
+              "low": 0.22918355555432002
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "me",
+            "risk": "low",
+            "_whisper_prob": 0.995,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.407025849293608,
+              "med": 0.009888018537929437,
+              "low": 0.5830861321684626
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9967,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.06172261122154315,
+              "med": 0.03885643669927709,
+              "low": 0.8994209520791799
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bag,",
+            "risk": "low",
+            "_whisper_prob": 0.9965,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6958981489497963,
+              "med": 0.11811811455397517,
+              "low": 0.18598373649622854
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "but",
+            "risk": "low",
+            "_whisper_prob": 0.9822,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.05413097992299026,
+              "med": 0.00985831267725907,
+              "low": 0.9360107073997508
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01797065066010351,
+              "med": 0.009402016501467225,
+              "low": 0.9726273328384292
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "am",
+            "risk": "low",
+            "_whisper_prob": 0.9325,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.19805311450547355,
+              "med": 0.011829553810874837,
+              "low": 0.7901173316836516
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9892,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.9276900745508528,
+              "med": 0.006265447184448276,
+              "low": 0.0660444782646989
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "sure",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.12526846528691615,
+              "med": 0.7981829437066745,
+              "low": 0.07654859100640939
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "if",
+            "risk": "low",
+            "_whisper_prob": 0.9971,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.458422959669198,
+              "med": 0.1537612193459643,
+              "low": 0.38781582098483774
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9977,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01943585456167784,
+              "med": 0.02701256847680033,
+              "low": 0.9535515769615219
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.9969,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.40193700336530264,
+              "med": 0.032489760063685716,
+              "low": 0.5655732365710117
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bag",
+            "risk": "low",
+            "_whisper_prob": 0.9135,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6057863010323971,
+              "med": 0.18554618024575112,
+              "low": 0.20866751872185188
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9927,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03389579810989534,
+              "med": 0.014047019504541448,
+              "low": 0.9520571823855631
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "cash.",
+            "risk": "low",
+            "_whisper_prob": 0.9202,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.691373721449481,
+              "med": 0.2035786782517031,
+              "low": 0.10504760029881607
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.04725657268003984,
+      "_no_speech_prob": 0.22508132457733154
+    },
+    {
+      "id": 26,
+      "speaker": "Speaker",
+      "start": 241.68,
+      "end": 246.32,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "For",
+            "risk": "med",
+            "_whisper_prob": 0.543,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.00243648179795585,
+              "med": 0.0014976276677899159,
+              "low": 0.9960658905342541
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "clarity,",
+            "risk": "low",
+            "_whisper_prob": 0.9907,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.26839941394552647,
+              "med": 0.4783367126324781,
+              "low": 0.2532638734219954
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9903,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01073700780149256,
+              "med": 0.0031005817475928225,
+              "low": 0.9861624104509147
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "are",
+            "risk": "low",
+            "_whisper_prob": 0.9967,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006881521146068742,
+              "med": 0.008671509109638957,
+              "low": 0.9844469697442924
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "uncertain",
+            "risk": "low",
+            "_whisper_prob": 0.9953,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3791149294181214,
+              "med": 0.25792206801781004,
+              "low": 0.3629630025640685
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "whether",
+            "risk": "low",
+            "_whisper_prob": 0.9939,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.26445060175668766,
+              "med": 0.34033992677686464,
+              "low": 0.39520947146644775
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01953288780782114,
+              "med": 0.014106562388033782,
+              "low": 0.9663605498041451
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "demand",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6576276819805205,
+              "med": 0.03810428324387375,
+              "low": 0.30426803477560593
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9994,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.007117328697237999,
+              "med": 0.0033976375076911667,
+              "low": 0.9894850337950708
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0031739100410014143,
+              "med": 0.0007142315663885438,
+              "low": 0.9961118583926102
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9993,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.025808216138321512,
+              "med": 0.012801136770514225,
+              "low": 0.9613906470911643
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "bag",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.49149676700808737,
+              "med": 0.0935253534557171,
+              "low": 0.41497787953619547
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.014905007497883208,
+              "med": 0.004050513639721229,
+              "low": 0.9810444788623955
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9827,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.002875531064352072,
+              "med": 0.0008196642505523532,
+              "low": 0.9963048046850957
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "cash.",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.7369499537388446,
+              "med": 0.06987211581150975,
+              "low": 0.19317793044964574
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          }
+        ]
+      },
+      "_avg_logprob": -0.04725657268003984,
+      "_no_speech_prob": 0.22508132457733154
+    },
+    {
+      "id": 27,
+      "speaker": "Speaker",
+      "start": 250.54,
+      "end": 255.24,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "That",
+            "risk": "high",
+            "_whisper_prob": 0.0763,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008285991758377105,
+              "med": 0.02832116481432397,
+              "low": 0.9633928434272989
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.8781,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.004081655720956831,
+              "med": 0.059558968811995947,
+              "low": 0.9363593754670473
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "right,",
+            "risk": "low",
+            "_whisper_prob": 0.9695,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.019416858388700338,
+              "med": 0.372026513770605,
+              "low": 0.6085566278406946
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9498,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0029101636379914686,
+              "med": 0.03404509674772491,
+              "low": 0.9630447396142835
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "noise",
+            "risk": "low",
+            "_whisper_prob": 0.9568,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.00606871438184949,
+              "med": 0.9066716822597006,
+              "low": 0.08725960335844987
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "from",
+            "risk": "low",
+            "_whisper_prob": 0.9969,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006252100167758091,
+              "med": 0.04932541655372552,
+              "low": 0.9444224832785164
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0024750096671323756,
+              "med": 0.04222132979770077,
+              "low": 0.9553036605351668
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "traffic",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.038052786423901294,
+              "med": 0.4604501772230215,
+              "low": 0.5014970363530772
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "made",
+            "risk": "low",
+            "_whisper_prob": 0.9968,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03378072789230779,
+              "med": 0.034684864283706485,
+              "low": 0.9315344078239857
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9972,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.001322774544017728,
+              "med": 0.05093997635211493,
+              "low": 0.9477372491038673
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "last",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03580553213741595,
+              "med": 0.38160973227240746,
+              "low": 0.5825847355901765
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "word",
+            "risk": "low",
+            "_whisper_prob": 0.995,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0422703808869089,
+              "med": 0.3661829714893908,
+              "low": 0.5915466476237002
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "difficult",
+            "risk": "low",
+            "_whisper_prob": 0.9893,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.023470843948251694,
+              "med": 0.29542050694210065,
+              "low": 0.6811086491096477
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0005251772788474411,
+              "med": 0.025892482251700946,
+              "low": 0.9735823404694517
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "hear.",
+            "risk": "low",
+            "_whisper_prob": 0.998,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.009095790853749203,
+              "med": 0.524824029616433,
+              "low": 0.46608017952981773
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07389440801408556,
+      "_no_speech_prob": 0.3605353534221649
+    },
+    {
+      "id": 28,
+      "speaker": "Speaker",
+      "start": 260.56,
+      "end": 264.46,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Is",
+            "risk": "med",
+            "_whisper_prob": 0.5128,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0016084463409643344,
+              "med": 0.04558058131121689,
+              "low": 0.9528109723478186
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "there",
+            "risk": "low",
+            "_whisper_prob": 0.9989,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.019336423377302465,
+              "med": 0.15213264700402007,
+              "low": 0.8285309296186775
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9965,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.041241899422157696,
+              "med": 0.14236382681261664,
+              "low": 0.8163942737652256
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "else",
+            "risk": "low",
+            "_whisper_prob": 0.9988,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01860817409747092,
+              "med": 0.3475954702071606,
+              "low": 0.6337963556953685
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "important",
+            "risk": "low",
+            "_whisper_prob": 0.9977,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.008584295903888489,
+              "med": 0.11135554010048314,
+              "low": 0.8800601639956284
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9958,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0029279348629827934,
+              "med": 0.00704100820718731,
+              "low": 0.9900310569298298
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0014622113986504412,
+              "med": 0.0027866164139446646,
+              "low": 0.9957511721874048
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "remember",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01575634491290989,
+              "med": 0.3760107715978075,
+              "low": 0.6082328834892827
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "from",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.002686504316301003,
+              "med": 0.0219133337600316,
+              "low": 0.9754001619236674
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "those",
+            "risk": "low",
+            "_whisper_prob": 0.9982,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0007726260976566574,
+              "med": 0.017974780635841573,
+              "low": 0.9812525932665016
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "few",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.012281888485360014,
+              "med": 0.9076452387032259,
+              "low": 0.08007287281141406
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "seconds?",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.04985234722035888,
+              "med": 0.29569958756641207,
+              "low": 0.6544480652132291
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07389440801408556,
+      "_no_speech_prob": 0.3605353534221649
+    },
+    {
+      "id": 29,
+      "speaker": "Speaker",
+      "start": 270.72,
+      "end": 276.58,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Thank",
+            "risk": "high",
+            "_whisper_prob": 0.3101,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.21880253314664438,
+              "med": 0.29746699319311704,
+              "low": 0.4837304736602385
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you.",
+            "risk": "low",
+            "_whisper_prob": 0.9542,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01033370961140876,
+              "med": 0.006238441222942419,
+              "low": 0.9834278491656488
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9422,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0026354354127591556,
+              "med": 0.00451942034033858,
+              "low": 0.9928451442469022
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "am",
+            "risk": "low",
+            "_whisper_prob": 0.9407,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.038769817213148115,
+              "med": 0.006420499186507462,
+              "low": 0.9548096836003445
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "going",
+            "risk": "low",
+            "_whisper_prob": 0.9976,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.07975100012458368,
+              "med": 0.19790841001858084,
+              "low": 0.7223405898568356
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9985,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.006886321294266895,
+              "med": 0.014576673968047831,
+              "low": 0.9785370047376853
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "summarize",
+            "risk": "low",
+            "_whisper_prob": 0.8035,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.25910129964969214,
+              "med": 0.2570551172664697,
+              "low": 0.4838435830838382
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "what",
+            "risk": "low",
+            "_whisper_prob": 0.9938,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.1889416002857761,
+              "med": 0.49178766281464215,
+              "low": 0.31927073689958174
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9981,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.012664344843066614,
+              "med": 0.005377381597936816,
+              "low": 0.9819582735589966
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "have",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0645177244026349,
+              "med": 0.0054784189075345,
+              "low": 0.9300038566898305
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "told",
+            "risk": "low",
+            "_whisper_prob": 0.9983,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.47731580244899613,
+              "med": 0.009053844759384868,
+              "low": 0.513630352791619
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "me,",
+            "risk": "low",
+            "_whisper_prob": 0.9978,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.12511825473918492,
+              "med": 0.008453857474475353,
+              "low": 0.8664278877863397
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9853,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.00045496107696194185,
+              "med": 0.0003826679498249299,
+              "low": 0.999162370973213
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9971,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.00851638733943444,
+              "med": 0.0042700667271638685,
+              "low": 0.9872135459334016
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "can",
+            "risk": "low",
+            "_whisper_prob": 0.9995,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09396962246679297,
+              "med": 0.44904569357886487,
+              "low": 0.45698468395434216
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "correct",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.059740996120677584,
+              "med": 0.027011066978290258,
+              "low": 0.9132479369010321
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9956,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.26702093171869007,
+              "med": 0.08764527766072465,
+              "low": 0.6453337906205853
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "inaccurate.",
+            "risk": "low",
+            "_whisper_prob": 0.9834,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.17663369081476196,
+              "med": 0.6423935854693861,
+              "low": 0.1809727237158519
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07883122563362122,
+      "_no_speech_prob": 0.4931700825691223
+    },
+    {
+      "id": 30,
+      "speaker": "Speaker",
+      "start": 280.74,
+      "end": 285.92,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Yes,",
+            "risk": "low",
+            "_whisper_prob": 0.9611,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.36157237363757505,
+              "med": 0.12067047527923265,
+              "low": 0.5177571510831922
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9913,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.09664027782559942,
+              "med": 0.014493190213408018,
+              "low": 0.8888665319609924
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "summary",
+            "risk": "low",
+            "_whisper_prob": 0.9893,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.47066153754274803,
+              "med": 0.0056750708256887205,
+              "low": 0.5236633916315633
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9991,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.059351884756430676,
+              "med": 0.0414342552291166,
+              "low": 0.8992138600144529
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "correct.",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3589568033653912,
+              "med": 0.0436259316464977,
+              "low": 0.5974172649881111
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9957,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.01740130193511668,
+              "med": 0.006058944229475717,
+              "low": 0.9765397538354076
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "want",
+            "risk": "low",
+            "_whisper_prob": 0.9977,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.49430906487866133,
+              "med": 0.10857262094677099,
+              "low": 0.39711831417456755
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9994,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.021243355738944487,
+              "med": 0.016737546230749217,
+              "low": 0.9620190980303064
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "be",
+            "risk": "low",
+            "_whisper_prob": 0.9994,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.17674295400056514,
+              "med": 0.01868663214488934,
+              "low": 0.8045704138545455
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "clear",
+            "risk": "low",
+            "_whisper_prob": 0.9992,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.1956131714881095,
+              "med": 0.5559491944247007,
+              "low": 0.2484376340871898
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.12916941200385035,
+              "med": 0.01626746571331495,
+              "low": 0.8545631222828346
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9943,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.014320716169924207,
+              "med": 0.005898392437634138,
+              "low": 0.9797808913924417
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9967,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.12323287670136768,
+              "med": 0.0029933324950180973,
+              "low": 0.8737737908036142
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9986,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.9285421834425793,
+              "med": 0.005438596189776564,
+              "low": 0.06601922036764406
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9994,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.7166751507669374,
+              "med": 0.03218079830428286,
+              "low": 0.25114405092877967
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9979,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.05753755858417902,
+              "med": 0.012037548737014583,
+              "low": 0.9304248926788063
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "face",
+            "risk": "low",
+            "_whisper_prob": 0.9995,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.757809541452788,
+              "med": 0.01599752912392149,
+              "low": 0.22619292942329053
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "properly.",
+            "risk": "low",
+            "_whisper_prob": 0.988,
+            "predicted_importance": "med",
+            "predicted_proba": {
+              "high": 0.740166245693881,
+              "med": 0.14812852488195977,
+              "low": 0.11170522942415918
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          }
+        ]
+      },
+      "_avg_logprob": -0.07883122563362122,
+      "_no_speech_prob": 0.4931700825691223
+    },
+    {
+      "id": 31,
+      "speaker": "Speaker",
+      "start": 288.82,
+      "end": 293.86,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Understood,",
+            "risk": "high",
+            "_whisper_prob": 0.0452,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.13710324287006512,
+              "med": 0.05475670957980666,
+              "low": 0.8081400475501282
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "med"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9448,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.025654152565070015,
+              "med": 0.023014923952620853,
+              "low": 0.9513309234823092
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "time",
+            "risk": "low",
+            "_whisper_prob": 0.996,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.15929201333349638,
+              "med": 0.028112438969172853,
+              "low": 0.8125955476973308
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9987,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03682527119513211,
+              "med": 0.034402799613393036,
+              "low": 0.9287719291914749
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "now",
+            "risk": "low",
+            "_whisper_prob": 0.9866,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.5136298417421028,
+              "med": 0.015636745033035096,
+              "low": 0.47073341322486223
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.9597,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.7358775754449021,
+              "med": 0.22300825576507752,
+              "low": 0.04111416879002048
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": ".56",
+            "risk": "low",
+            "_whisper_prob": 0.9609,
+            "predicted_importance": "high",
+            "predicted_proba": {
+              "high": 0.48705132982020355,
+              "med": 0.4392391023906727,
+              "low": 0.07370956778912359
+            },
+            "predicted_importance_source": "l1",
+            "combined_risk": "high"
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9819,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.08709963698886401,
+              "med": 0.02335904728288202,
+              "low": 0.8895413157282539
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.02284376612931875,
+              "med": 0.02284626844297052,
+              "low": 0.9543099654277108
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "morning,",
+            "risk": "low",
+            "_whisper_prob": 0.9973,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6648419932042126,
+              "med": 0.0946034940618841,
+              "low": 0.24055451273390324
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9939,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.0012678646489123538,
+              "med": 0.00030996526539005183,
+              "low": 0.9984221700856976
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.997,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.03105154029048879,
+              "med": 0.01775444426433303,
+              "low": 0.951194015445178
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "interview",
+            "risk": "low",
+            "_whisper_prob": 0.999,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.6324436131234926,
+              "med": 0.01904666816002088,
+              "low": 0.34850971871648656
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.995,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.040526203623643786,
+              "med": 0.025313755442905365,
+              "low": 0.9341600409334511
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          },
+          {
+            "text": "concluded.",
+            "risk": "low",
+            "_whisper_prob": 0.9773,
+            "predicted_importance": "low",
+            "predicted_proba": {
+              "high": 0.3211545179116218,
+              "med": 0.029739757678408158,
+              "low": 0.64910572440997
+            },
+            "predicted_importance_source": "l2",
+            "combined_risk": "low"
+          }
+        ]
+      },
+      "_avg_logprob": -0.1453862190246582,
+      "_no_speech_prob": 0.8868308067321777
+    }
+  ],
+  "_annotated_models": [
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)",
+    "Whisper (small)"
+  ]
+}

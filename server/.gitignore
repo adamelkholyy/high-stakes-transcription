@@ -1,0 +1,3 @@
+# Local-LLM (2b AI mode) judgment cache. Delete to recompute; COMMIT it only to
+# freeze the exact LLM judgments used in the user study (reproducibility).
+.focus_cache/

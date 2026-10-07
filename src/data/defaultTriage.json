@@ -1,0 +1,144 @@
+{
+  "segments": [
+    {
+      "id": 0,
+      "importance": "low"
+    },
+    {
+      "id": 1,
+      "importance": "low"
+    },
+    {
+      "id": 2,
+      "importance": "low"
+    },
+    {
+      "id": 3,
+      "importance": "low"
+    },
+    {
+      "id": 4,
+      "importance": "low"
+    },
+    {
+      "id": 5,
+      "importance": "high",
+      "rank": 1,
+      "reason": "Confirms no gun presence"
+    },
+    {
+      "id": 6,
+      "importance": "low"
+    },
+    {
+      "id": 7,
+      "importance": "low"
+    },
+    {
+      "id": 8,
+      "importance": "low"
+    },
+    {
+      "id": 9,
+      "importance": "low"
+    },
+    {
+      "id": 10,
+      "importance": "low"
+    },
+    {
+      "id": 11,
+      "importance": "low"
+    },
+    {
+      "id": 12,
+      "importance": "low"
+    },
+    {
+      "id": 13,
+      "importance": "low"
+    },
+    {
+      "id": 14,
+      "importance": "low"
+    },
+    {
+      "id": 15,
+      "importance": "low"
+    },
+    {
+      "id": 16,
+      "importance": "low"
+    },
+    {
+      "id": 17,
+      "importance": "high",
+      "rank": 2,
+      "reason": "Clarifies initial view of knife"
+    },
+    {
+      "id": 18,
+      "importance": "low"
+    },
+    {
+      "id": 19,
+      "importance": "low"
+    },
+    {
+      "id": 20,
+      "importance": "high",
+      "rank": 3,
+      "reason": "Describes another person's involvement"
+    },
+    {
+      "id": 21,
+      "importance": "low"
+    },
+    {
+      "id": 22,
+      "importance": "low"
+    },
+    {
+      "id": 23,
+      "importance": "low"
+    },
+    {
+      "id": 24,
+      "importance": "high",
+      "rank": 4,
+      "reason": "Uncertainty in crucial statement"
+    },
+    {
+      "id": 25,
+      "importance": "low"
+    },
+    {
+      "id": 26,
+      "importance": "low"
+    },
+    {
+      "id": 27,
+      "importance": "low"
+    },
+    {
+      "id": 28,
+      "importance": "low"
+    },
+    {
+      "id": 29,
+      "importance": "low"
+    },
+    {
+      "id": 30,
+      "importance": "high",
+      "rank": 5,
+      "reason": "Final clarification on face visibility"
+    },
+    {
+      "id": 31,
+      "importance": "low"
+    }
+  ],
+  "_model": "qwen2.5:7b-instruct",
+  "_windows": 1
+}

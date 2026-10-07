@@ -1,0 +1,2546 @@
+{
+  "audioDuration": 293.86,
+  "segments": [
+    {
+      "id": 0,
+      "speaker": "Speaker",
+      "start": 0.0,
+      "end": 4.18,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "For",
+            "risk": "med",
+            "_whisper_prob": 0.7821
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9349
+          },
+          {
+            "text": "record,",
+            "risk": "low",
+            "_whisper_prob": 0.8253
+          },
+          {
+            "text": "this",
+            "risk": "low",
+            "_whisper_prob": 0.9723
+          },
+          {
+            "text": "interview",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9972
+          },
+          {
+            "text": "being",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "conducted",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "Riverside",
+            "risk": "low",
+            "_whisper_prob": 0.9954
+          },
+          {
+            "text": "Police",
+            "risk": "low",
+            "_whisper_prob": 0.8516
+          },
+          {
+            "text": "Station.",
+            "risk": "low",
+            "_whisper_prob": 0.9311
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 1,
+      "speaker": "Speaker",
+      "start": 8.0,
+      "end": 11.24,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "It",
+            "risk": "low",
+            "_whisper_prob": 0.8952
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "14",
+            "risk": "med",
+            "_whisper_prob": 0.6453
+          },
+          {
+            "text": "March,",
+            "risk": "med",
+            "_whisper_prob": 0.6801
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.9842
+          },
+          {
+            "text": ".42",
+            "risk": "low",
+            "_whisper_prob": 0.9152
+          },
+          {
+            "text": "in",
+            "risk": "med",
+            "_whisper_prob": 0.789
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9967
+          },
+          {
+            "text": "morning.",
+            "risk": "low",
+            "_whisper_prob": 0.9948
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 2,
+      "speaker": "Speaker",
+      "start": 15.56,
+      "end": 17.98,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Please",
+            "risk": "low",
+            "_whisper_prob": 0.9554
+          },
+          {
+            "text": "state",
+            "risk": "low",
+            "_whisper_prob": 0.9827
+          },
+          {
+            "text": "your",
+            "risk": "low",
+            "_whisper_prob": 0.9949
+          },
+          {
+            "text": "full",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "name",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9945
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "record.",
+            "risk": "low",
+            "_whisper_prob": 0.994
+          }
+        ]
+      },
+      "_avg_logprob": -0.20005115595730869,
+      "_no_speech_prob": 0.0032191553618758917
+    },
+    {
+      "id": 3,
+      "speaker": "Speaker",
+      "start": 22.62,
+      "end": 25.94,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "My",
+            "risk": "high",
+            "_whisper_prob": 0.4712
+          },
+          {
+            "text": "name",
+            "risk": "low",
+            "_whisper_prob": 0.9855
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9953
+          },
+          {
+            "text": "Daniel",
+            "risk": "low",
+            "_whisper_prob": 0.9725
+          },
+          {
+            "text": "Hargraves,",
+            "risk": "med",
+            "_whisper_prob": 0.7716
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9688
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.982
+          },
+          {
+            "text": "live",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "Millend.",
+            "risk": "med",
+            "_whisper_prob": 0.7403
+          }
+        ]
+      },
+      "_avg_logprob": -0.13982217376296585,
+      "_no_speech_prob": 0.22985270619392395
+    },
+    {
+      "id": 4,
+      "speaker": "Speaker",
+      "start": 31.66,
+      "end": 35.78,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Take",
+            "risk": "low",
+            "_whisper_prob": 0.833
+          },
+          {
+            "text": "me",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "back",
+            "risk": "low",
+            "_whisper_prob": 0.9984
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.996
+          },
+          {
+            "text": "last",
+            "risk": "low",
+            "_whisper_prob": 0.9964
+          },
+          {
+            "text": "Saturday",
+            "risk": "low",
+            "_whisper_prob": 0.9787
+          },
+          {
+            "text": "evening.",
+            "risk": "low",
+            "_whisper_prob": 0.9918
+          },
+          {
+            "text": "What",
+            "risk": "low",
+            "_whisper_prob": 0.9823
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.998
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9938
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "scene?",
+            "risk": "low",
+            "_whisper_prob": 0.9951
+          }
+        ]
+      },
+      "_avg_logprob": -0.13982217376296585,
+      "_no_speech_prob": 0.22985270619392395
+    },
+    {
+      "id": 5,
+      "speaker": "Speaker",
+      "start": 41.68,
+      "end": 43.68,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "med",
+            "_whisper_prob": 0.6197
+          },
+          {
+            "text": "told",
+            "risk": "low",
+            "_whisper_prob": 0.9839
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9958
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9513
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9861
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9957
+          },
+          {
+            "text": "have",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9974
+          },
+          {
+            "text": "gun.",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          }
+        ]
+      },
+      "_avg_logprob": -0.10768637833771882,
+      "_no_speech_prob": 0.21024702489376068
+    },
+    {
+      "id": 6,
+      "speaker": "Speaker",
+      "start": 49.66,
+      "end": 51.96,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "There",
+            "risk": "low",
+            "_whisper_prob": 0.9177
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9948
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.992
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9984
+          },
+          {
+            "text": "door",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "holding",
+            "risk": "low",
+            "_whisper_prob": 0.9767
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "knife.",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          }
+        ]
+      },
+      "_avg_logprob": -0.10768637833771882,
+      "_no_speech_prob": 0.21024702489376068
+    },
+    {
+      "id": 7,
+      "speaker": "Speaker",
+      "start": 58.64,
+      "end": 60.46,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "high",
+            "_whisper_prob": 0.4484
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9966
+          },
+          {
+            "text": "recognize",
+            "risk": "low",
+            "_whisper_prob": 0.8581
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9681
+          },
+          {
+            "text": "at",
+            "risk": "low",
+            "_whisper_prob": 0.9674
+          },
+          {
+            "text": "all?",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          }
+        ]
+      },
+      "_avg_logprob": -0.12855684280395507,
+      "_no_speech_prob": 0.24212591350078583
+    },
+    {
+      "id": 8,
+      "speaker": "Speaker",
+      "start": 65.78,
+      "end": 68.66,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "No,",
+            "risk": "low",
+            "_whisper_prob": 0.9209
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9471
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "too",
+            "risk": "low",
+            "_whisper_prob": 0.9908
+          },
+          {
+            "text": "dark",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9996
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "face",
+            "risk": "low",
+            "_whisper_prob": 0.9998
+          },
+          {
+            "text": "clearly.",
+            "risk": "low",
+            "_whisper_prob": 0.9898
+          }
+        ]
+      },
+      "_avg_logprob": -0.12855684280395507,
+      "_no_speech_prob": 0.24212591350078583
+    },
+    {
+      "id": 9,
+      "speaker": "Speaker",
+      "start": 74.56,
+      "end": 79.4,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Thank",
+            "risk": "high",
+            "_whisper_prob": 0.4324
+          },
+          {
+            "text": "you.",
+            "risk": "low",
+            "_whisper_prob": 0.9283
+          },
+          {
+            "text": "We",
+            "risk": "low",
+            "_whisper_prob": 0.9381
+          },
+          {
+            "text": "will",
+            "risk": "low",
+            "_whisper_prob": 0.9911
+          },
+          {
+            "text": "continue",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9969
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "few",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "more",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          },
+          {
+            "text": "details",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "before",
+            "risk": "low",
+            "_whisper_prob": 0.9931
+          },
+          {
+            "text": "closing",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "interview.",
+            "risk": "low",
+            "_whisper_prob": 0.9967
+          }
+        ]
+      },
+      "_avg_logprob": -0.11638524532318115,
+      "_no_speech_prob": 0.595245361328125
+    },
+    {
+      "id": 10,
+      "speaker": "Speaker",
+      "start": 83.44,
+      "end": 89.08,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "You",
+            "risk": "low",
+            "_whisper_prob": 0.9161
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9964
+          },
+          {
+            "text": "arrived",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "shortly",
+            "risk": "low",
+            "_whisper_prob": 0.9893
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9911
+          },
+          {
+            "text": "half",
+            "risk": "low",
+            "_whisper_prob": 0.9644
+          },
+          {
+            "text": "past",
+            "risk": "low",
+            "_whisper_prob": 0.9209
+          },
+          {
+            "text": "9.",
+            "risk": "high",
+            "_whisper_prob": 0.373
+          },
+          {
+            "text": "How",
+            "risk": "low",
+            "_whisper_prob": 0.9891
+          },
+          {
+            "text": "sure",
+            "risk": "low",
+            "_whisper_prob": 0.9857
+          },
+          {
+            "text": "are",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "about",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9996
+          },
+          {
+            "text": "time?",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          }
+        ]
+      },
+      "_avg_logprob": -0.11638524532318115,
+      "_no_speech_prob": 0.595245361328125
+    },
+    {
+      "id": 11,
+      "speaker": "Speaker",
+      "start": 93.64,
+      "end": 97.62,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "med",
+            "_whisper_prob": 0.6717
+          },
+          {
+            "text": "checked",
+            "risk": "low",
+            "_whisper_prob": 0.9803
+          },
+          {
+            "text": "my",
+            "risk": "low",
+            "_whisper_prob": 0.9959
+          },
+          {
+            "text": "phone",
+            "risk": "low",
+            "_whisper_prob": 0.9972
+          },
+          {
+            "text": "when",
+            "risk": "low",
+            "_whisper_prob": 0.9918
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9413
+          },
+          {
+            "text": "got",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "off",
+            "risk": "low",
+            "_whisper_prob": 0.9939
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "bus,",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9748
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9924
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.9958
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.8818
+          },
+          {
+            "text": ".36.",
+            "risk": "med",
+            "_whisper_prob": 0.7163
+          }
+        ]
+      },
+      "_avg_logprob": -0.06310021600057912,
+      "_no_speech_prob": 0.5830132365226746
+    },
+    {
+      "id": 12,
+      "speaker": "Speaker",
+      "start": 103.72,
+      "end": 108.4,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Which",
+            "risk": "low",
+            "_whisper_prob": 0.827
+          },
+          {
+            "text": "bus",
+            "risk": "low",
+            "_whisper_prob": 0.9898
+          },
+          {
+            "text": "stop",
+            "risk": "low",
+            "_whisper_prob": 0.9924
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9936
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "use?",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "The",
+            "risk": "low",
+            "_whisper_prob": 0.9475
+          },
+          {
+            "text": "one",
+            "risk": "low",
+            "_whisper_prob": 0.9965
+          },
+          {
+            "text": "outside",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9929
+          },
+          {
+            "text": "pharmacy",
+            "risk": "low",
+            "_whisper_prob": 0.9642
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9698
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9965
+          },
+          {
+            "text": "one",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "bridge?",
+            "risk": "low",
+            "_whisper_prob": 0.9883
+          }
+        ]
+      },
+      "_avg_logprob": -0.06310021600057912,
+      "_no_speech_prob": 0.5830132365226746
+    },
+    {
+      "id": 13,
+      "speaker": "Speaker",
+      "start": 112.54,
+      "end": 117.02,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "The",
+            "risk": "high",
+            "_whisper_prob": 0.4062
+          },
+          {
+            "text": "stop",
+            "risk": "med",
+            "_whisper_prob": 0.7106
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9778
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9696
+          },
+          {
+            "text": "bridge.",
+            "risk": "low",
+            "_whisper_prob": 0.9552
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9728
+          },
+          {
+            "text": "remember",
+            "risk": "low",
+            "_whisper_prob": 0.9968
+          },
+          {
+            "text": "because",
+            "risk": "low",
+            "_whisper_prob": 0.988
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9732
+          },
+          {
+            "text": "street",
+            "risk": "low",
+            "_whisper_prob": 0.9882
+          },
+          {
+            "text": "light",
+            "risk": "med",
+            "_whisper_prob": 0.6225
+          },
+          {
+            "text": "there",
+            "risk": "low",
+            "_whisper_prob": 0.9687
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "flickering.",
+            "risk": "low",
+            "_whisper_prob": 0.9953
+          }
+        ]
+      },
+      "_avg_logprob": -0.0766159560945299,
+      "_no_speech_prob": 0.1952638477087021
+    },
+    {
+      "id": 14,
+      "speaker": "Speaker",
+      "start": 121.64,
+      "end": 124.84,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "When",
+            "risk": "low",
+            "_whisper_prob": 0.87
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9959
+          },
+          {
+            "text": "walked",
+            "risk": "med",
+            "_whisper_prob": 0.7269
+          },
+          {
+            "text": "toward",
+            "risk": "low",
+            "_whisper_prob": 0.9447
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "shop,",
+            "risk": "low",
+            "_whisper_prob": 0.892
+          },
+          {
+            "text": "where",
+            "risk": "low",
+            "_whisper_prob": 0.9851
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9959
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.9884
+          },
+          {
+            "text": "standing?",
+            "risk": "low",
+            "_whisper_prob": 0.9936
+          }
+        ]
+      },
+      "_avg_logprob": -0.0766159560945299,
+      "_no_speech_prob": 0.1952638477087021
+    },
+    {
+      "id": 15,
+      "speaker": "Speaker",
+      "start": 130.08,
+      "end": 135.42,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "He",
+            "risk": "high",
+            "_whisper_prob": 0.0882
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9637
+          },
+          {
+            "text": "standing",
+            "risk": "low",
+            "_whisper_prob": 0.9611
+          },
+          {
+            "text": "just",
+            "risk": "low",
+            "_whisper_prob": 0.9912
+          },
+          {
+            "text": "inside",
+            "risk": "low",
+            "_whisper_prob": 0.9969
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "doorway,",
+            "risk": "low",
+            "_whisper_prob": 0.9812
+          },
+          {
+            "text": "with",
+            "risk": "low",
+            "_whisper_prob": 0.9907
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9977
+          },
+          {
+            "text": "right",
+            "risk": "low",
+            "_whisper_prob": 0.9956
+          },
+          {
+            "text": "hand",
+            "risk": "low",
+            "_whisper_prob": 0.9741
+          },
+          {
+            "text": "low",
+            "risk": "low",
+            "_whisper_prob": 0.9238
+          },
+          {
+            "text": "by",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "coat",
+            "risk": "low",
+            "_whisper_prob": 0.9918
+          },
+          {
+            "text": "pocket.",
+            "risk": "low",
+            "_whisper_prob": 0.9842
+          }
+        ]
+      },
+      "_avg_logprob": -0.0627019272910224,
+      "_no_speech_prob": 0.4246339201927185
+    },
+    {
+      "id": 16,
+      "speaker": "Speaker",
+      "start": 141.56,
+      "end": 145.06,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "med",
+            "_whisper_prob": 0.5202
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9961
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "hand",
+            "risk": "low",
+            "_whisper_prob": 0.9987
+          },
+          {
+            "text": "before",
+            "risk": "low",
+            "_whisper_prob": 0.9963
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9972
+          },
+          {
+            "text": "shouting",
+            "risk": "low",
+            "_whisper_prob": 0.9935
+          },
+          {
+            "text": "started?",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          }
+        ]
+      },
+      "_avg_logprob": -0.0627019272910224,
+      "_no_speech_prob": 0.4246339201927185
+    },
+    {
+      "id": 17,
+      "speaker": "Speaker",
+      "start": 150.6,
+      "end": 155.18,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.2261
+          },
+          {
+            "text": "saw",
+            "risk": "low",
+            "_whisper_prob": 0.8885
+          },
+          {
+            "text": "something",
+            "risk": "low",
+            "_whisper_prob": 0.9697
+          },
+          {
+            "text": "silver,",
+            "risk": "low",
+            "_whisper_prob": 0.9574
+          },
+          {
+            "text": "but",
+            "risk": "low",
+            "_whisper_prob": 0.975
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9668
+          },
+          {
+            "text": "cannot",
+            "risk": "low",
+            "_whisper_prob": 0.9336
+          },
+          {
+            "text": "swear",
+            "risk": "low",
+            "_whisper_prob": 0.9918
+          },
+          {
+            "text": "it",
+            "risk": "low",
+            "_whisper_prob": 0.9738
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9968
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9914
+          },
+          {
+            "text": "knife",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "until",
+            "risk": "low",
+            "_whisper_prob": 0.9818
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9947
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.991
+          },
+          {
+            "text": "it.",
+            "risk": "low",
+            "_whisper_prob": 0.8711
+          }
+        ]
+      },
+      "_avg_logprob": -0.07074299225440392,
+      "_no_speech_prob": 0.2017870545387268
+    },
+    {
+      "id": 18,
+      "speaker": "Speaker",
+      "start": 162.66,
+      "end": 166.44,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "So",
+            "risk": "med",
+            "_whisper_prob": 0.792
+          },
+          {
+            "text": "your",
+            "risk": "low",
+            "_whisper_prob": 0.9158
+          },
+          {
+            "text": "first",
+            "risk": "low",
+            "_whisper_prob": 0.9954
+          },
+          {
+            "text": "clear",
+            "risk": "low",
+            "_whisper_prob": 0.9837
+          },
+          {
+            "text": "view",
+            "risk": "low",
+            "_whisper_prob": 0.9945
+          },
+          {
+            "text": "of",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9968
+          },
+          {
+            "text": "knife",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9913
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "hand?",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          }
+        ]
+      },
+      "_avg_logprob": -0.07074299225440392,
+      "_no_speech_prob": 0.2017870545387268
+    },
+    {
+      "id": 19,
+      "speaker": "Speaker",
+      "start": 171.62,
+      "end": 176.66,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Yes,",
+            "risk": "high",
+            "_whisper_prob": 0.0997
+          },
+          {
+            "text": "after",
+            "risk": "low",
+            "_whisper_prob": 0.9815
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9932
+          },
+          {
+            "text": "raised",
+            "risk": "low",
+            "_whisper_prob": 0.9657
+          },
+          {
+            "text": "it.",
+            "risk": "low",
+            "_whisper_prob": 0.8234
+          },
+          {
+            "text": "Before",
+            "risk": "low",
+            "_whisper_prob": 0.8154
+          },
+          {
+            "text": "that,",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9756
+          },
+          {
+            "text": "only",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "saw",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9928
+          },
+          {
+            "text": "shine",
+            "risk": "low",
+            "_whisper_prob": 0.9575
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.9957
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "sleeve.",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          }
+        ]
+      },
+      "_avg_logprob": -0.058393280680586655,
+      "_no_speech_prob": 0.16858166456222534
+    },
+    {
+      "id": 20,
+      "speaker": "Speaker",
+      "start": 181.52,
+      "end": 186.7,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "You",
+            "risk": "high",
+            "_whisper_prob": 0.224
+          },
+          {
+            "text": "also",
+            "risk": "low",
+            "_whisper_prob": 0.9963
+          },
+          {
+            "text": "mentioned",
+            "risk": "low",
+            "_whisper_prob": 0.9959
+          },
+          {
+            "text": "another",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "person",
+            "risk": "low",
+            "_whisper_prob": 0.9956
+          },
+          {
+            "text": "near",
+            "risk": "low",
+            "_whisper_prob": 0.9952
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9948
+          },
+          {
+            "text": "cash",
+            "risk": "low",
+            "_whisper_prob": 0.9701
+          },
+          {
+            "text": "machine.",
+            "risk": "low",
+            "_whisper_prob": 0.9941
+          },
+          {
+            "text": "Can",
+            "risk": "low",
+            "_whisper_prob": 0.9959
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "describe",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          },
+          {
+            "text": "person?",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          }
+        ]
+      },
+      "_avg_logprob": -0.058393280680586655,
+      "_no_speech_prob": 0.16858166456222534
+    },
+    {
+      "id": 21,
+      "speaker": "Speaker",
+      "start": 191.5,
+      "end": 197.24,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "There",
+            "risk": "high",
+            "_whisper_prob": 0.4565
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "woman",
+            "risk": "low",
+            "_whisper_prob": 0.9923
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "a",
+            "risk": "low",
+            "_whisper_prob": 0.996
+          },
+          {
+            "text": "green",
+            "risk": "low",
+            "_whisper_prob": 0.9955
+          },
+          {
+            "text": "jacket,",
+            "risk": "low",
+            "_whisper_prob": 0.9942
+          },
+          {
+            "text": "maybe",
+            "risk": "low",
+            "_whisper_prob": 0.9826
+          },
+          {
+            "text": "30",
+            "risk": "low",
+            "_whisper_prob": 0.8223
+          },
+          {
+            "text": "years",
+            "risk": "low",
+            "_whisper_prob": 0.9847
+          },
+          {
+            "text": "old,",
+            "risk": "low",
+            "_whisper_prob": 0.9836
+          },
+          {
+            "text": "standing",
+            "risk": "low",
+            "_whisper_prob": 0.9954
+          },
+          {
+            "text": "beside",
+            "risk": "low",
+            "_whisper_prob": 0.9947
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "cash",
+            "risk": "low",
+            "_whisper_prob": 0.9786
+          },
+          {
+            "text": "machine.",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          }
+        ]
+      },
+      "_avg_logprob": -0.06250402801915218,
+      "_no_speech_prob": 0.20026034116744995
+    },
+    {
+      "id": 22,
+      "speaker": "Speaker",
+      "start": 203.58,
+      "end": 206.3,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "low",
+            "_whisper_prob": 0.8932
+          },
+          {
+            "text": "she",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "speak",
+            "risk": "low",
+            "_whisper_prob": 0.9971
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9987
+          },
+          {
+            "text": "man",
+            "risk": "low",
+            "_whisper_prob": 0.9956
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.8843
+          },
+          {
+            "text": "appear",
+            "risk": "low",
+            "_whisper_prob": 0.9925
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9994
+          },
+          {
+            "text": "know",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "him?",
+            "risk": "low",
+            "_whisper_prob": 0.9984
+          }
+        ]
+      },
+      "_avg_logprob": -0.06250402801915218,
+      "_no_speech_prob": 0.20026034116744995
+    },
+    {
+      "id": 23,
+      "speaker": "Speaker",
+      "start": 211.56,
+      "end": 216.2,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.439
+          },
+          {
+            "text": "do",
+            "risk": "low",
+            "_whisper_prob": 0.8627
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9939
+          },
+          {
+            "text": "think",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "so.",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          },
+          {
+            "text": "She",
+            "risk": "low",
+            "_whisper_prob": 0.9599
+          },
+          {
+            "text": "stepped",
+            "risk": "low",
+            "_whisper_prob": 0.9892
+          },
+          {
+            "text": "back",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9938
+          },
+          {
+            "text": "looked",
+            "risk": "low",
+            "_whisper_prob": 0.9966
+          },
+          {
+            "text": "frightened",
+            "risk": "low",
+            "_whisper_prob": 0.9812
+          },
+          {
+            "text": "when",
+            "risk": "low",
+            "_whisper_prob": 0.9878
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.992
+          },
+          {
+            "text": "turned",
+            "risk": "low",
+            "_whisper_prob": 0.9975
+          },
+          {
+            "text": "around.",
+            "risk": "low",
+            "_whisper_prob": 0.9987
+          }
+        ]
+      },
+      "_avg_logprob": -0.06911660685683742,
+      "_no_speech_prob": 0.16857203841209412
+    },
+    {
+      "id": 24,
+      "speaker": "Speaker",
+      "start": 221.6,
+      "end": 224.28,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Did",
+            "risk": "low",
+            "_whisper_prob": 0.8186
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "hear",
+            "risk": "low",
+            "_whisper_prob": 0.9974
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "exact",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "words",
+            "risk": "low",
+            "_whisper_prob": 0.9987
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "were",
+            "risk": "low",
+            "_whisper_prob": 0.9934
+          },
+          {
+            "text": "shouted?",
+            "risk": "low",
+            "_whisper_prob": 0.9928
+          }
+        ]
+      },
+      "_avg_logprob": -0.06911660685683742,
+      "_no_speech_prob": 0.16857203841209412
+    },
+    {
+      "id": 25,
+      "speaker": "Speaker",
+      "start": 230.64,
+      "end": 235.02,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "I",
+            "risk": "high",
+            "_whisper_prob": 0.198
+          },
+          {
+            "text": "heard",
+            "risk": "low",
+            "_whisper_prob": 0.9097
+          },
+          {
+            "text": "him",
+            "risk": "low",
+            "_whisper_prob": 0.9783
+          },
+          {
+            "text": "say",
+            "risk": "low",
+            "_whisper_prob": 0.9949
+          },
+          {
+            "text": "give",
+            "risk": "high",
+            "_whisper_prob": 0.4666
+          },
+          {
+            "text": "me",
+            "risk": "low",
+            "_whisper_prob": 0.995
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9967
+          },
+          {
+            "text": "bag,",
+            "risk": "low",
+            "_whisper_prob": 0.9965
+          },
+          {
+            "text": "but",
+            "risk": "low",
+            "_whisper_prob": 0.9822
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.982
+          },
+          {
+            "text": "am",
+            "risk": "low",
+            "_whisper_prob": 0.9325
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9892
+          },
+          {
+            "text": "sure",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "if",
+            "risk": "low",
+            "_whisper_prob": 0.9971
+          },
+          {
+            "text": "he",
+            "risk": "low",
+            "_whisper_prob": 0.9977
+          },
+          {
+            "text": "said",
+            "risk": "low",
+            "_whisper_prob": 0.9969
+          },
+          {
+            "text": "bag",
+            "risk": "low",
+            "_whisper_prob": 0.9135
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9927
+          },
+          {
+            "text": "cash.",
+            "risk": "low",
+            "_whisper_prob": 0.9202
+          }
+        ]
+      },
+      "_avg_logprob": -0.04725657268003984,
+      "_no_speech_prob": 0.22508132457733154
+    },
+    {
+      "id": 26,
+      "speaker": "Speaker",
+      "start": 241.68,
+      "end": 246.32,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "For",
+            "risk": "med",
+            "_whisper_prob": 0.543
+          },
+          {
+            "text": "clarity,",
+            "risk": "low",
+            "_whisper_prob": 0.9907
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9903
+          },
+          {
+            "text": "are",
+            "risk": "low",
+            "_whisper_prob": 0.9967
+          },
+          {
+            "text": "uncertain",
+            "risk": "low",
+            "_whisper_prob": 0.9953
+          },
+          {
+            "text": "whether",
+            "risk": "low",
+            "_whisper_prob": 0.9939
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "demand",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "was",
+            "risk": "low",
+            "_whisper_prob": 0.9994
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9993
+          },
+          {
+            "text": "bag",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "or",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "for",
+            "risk": "low",
+            "_whisper_prob": 0.9827
+          },
+          {
+            "text": "cash.",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          }
+        ]
+      },
+      "_avg_logprob": -0.04725657268003984,
+      "_no_speech_prob": 0.22508132457733154
+    },
+    {
+      "id": 27,
+      "speaker": "Speaker",
+      "start": 250.54,
+      "end": 255.24,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "That",
+            "risk": "high",
+            "_whisper_prob": 0.0763
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.8781
+          },
+          {
+            "text": "right,",
+            "risk": "low",
+            "_whisper_prob": 0.9695
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9498
+          },
+          {
+            "text": "noise",
+            "risk": "low",
+            "_whisper_prob": 0.9568
+          },
+          {
+            "text": "from",
+            "risk": "low",
+            "_whisper_prob": 0.9969
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "traffic",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "made",
+            "risk": "low",
+            "_whisper_prob": 0.9968
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9972
+          },
+          {
+            "text": "last",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "word",
+            "risk": "low",
+            "_whisper_prob": 0.995
+          },
+          {
+            "text": "difficult",
+            "risk": "low",
+            "_whisper_prob": 0.9893
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "hear.",
+            "risk": "low",
+            "_whisper_prob": 0.998
+          }
+        ]
+      },
+      "_avg_logprob": -0.07389440801408556,
+      "_no_speech_prob": 0.3605353534221649
+    },
+    {
+      "id": 28,
+      "speaker": "Speaker",
+      "start": 260.56,
+      "end": 264.46,
+      "paraRisk": "med",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Is",
+            "risk": "med",
+            "_whisper_prob": 0.5128
+          },
+          {
+            "text": "there",
+            "risk": "low",
+            "_whisper_prob": 0.9989
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9965
+          },
+          {
+            "text": "else",
+            "risk": "low",
+            "_whisper_prob": 0.9988
+          },
+          {
+            "text": "important",
+            "risk": "low",
+            "_whisper_prob": 0.9977
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9958
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "remember",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "from",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "those",
+            "risk": "low",
+            "_whisper_prob": 0.9982
+          },
+          {
+            "text": "few",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "seconds?",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          }
+        ]
+      },
+      "_avg_logprob": -0.07389440801408556,
+      "_no_speech_prob": 0.3605353534221649
+    },
+    {
+      "id": 29,
+      "speaker": "Speaker",
+      "start": 270.72,
+      "end": 276.58,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Thank",
+            "risk": "high",
+            "_whisper_prob": 0.3101
+          },
+          {
+            "text": "you.",
+            "risk": "low",
+            "_whisper_prob": 0.9542
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9422
+          },
+          {
+            "text": "am",
+            "risk": "low",
+            "_whisper_prob": 0.9407
+          },
+          {
+            "text": "going",
+            "risk": "low",
+            "_whisper_prob": 0.9976
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9985
+          },
+          {
+            "text": "summarize",
+            "risk": "low",
+            "_whisper_prob": 0.8035
+          },
+          {
+            "text": "what",
+            "risk": "low",
+            "_whisper_prob": 0.9938
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9981
+          },
+          {
+            "text": "have",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          },
+          {
+            "text": "told",
+            "risk": "low",
+            "_whisper_prob": 0.9983
+          },
+          {
+            "text": "me,",
+            "risk": "low",
+            "_whisper_prob": 0.9978
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9853
+          },
+          {
+            "text": "you",
+            "risk": "low",
+            "_whisper_prob": 0.9971
+          },
+          {
+            "text": "can",
+            "risk": "low",
+            "_whisper_prob": 0.9995
+          },
+          {
+            "text": "correct",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "anything",
+            "risk": "low",
+            "_whisper_prob": 0.9956
+          },
+          {
+            "text": "inaccurate.",
+            "risk": "low",
+            "_whisper_prob": 0.9834
+          }
+        ]
+      },
+      "_avg_logprob": -0.07883122563362122,
+      "_no_speech_prob": 0.4931700825691223
+    },
+    {
+      "id": 30,
+      "speaker": "Speaker",
+      "start": 280.74,
+      "end": 285.92,
+      "paraRisk": "low",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Yes,",
+            "risk": "low",
+            "_whisper_prob": 0.9611
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.9913
+          },
+          {
+            "text": "summary",
+            "risk": "low",
+            "_whisper_prob": 0.9893
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9991
+          },
+          {
+            "text": "correct.",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9957
+          },
+          {
+            "text": "want",
+            "risk": "low",
+            "_whisper_prob": 0.9977
+          },
+          {
+            "text": "to",
+            "risk": "low",
+            "_whisper_prob": 0.9994
+          },
+          {
+            "text": "be",
+            "risk": "low",
+            "_whisper_prob": 0.9994
+          },
+          {
+            "text": "clear",
+            "risk": "low",
+            "_whisper_prob": 0.9992
+          },
+          {
+            "text": "that",
+            "risk": "low",
+            "_whisper_prob": 0.996
+          },
+          {
+            "text": "I",
+            "risk": "low",
+            "_whisper_prob": 0.9943
+          },
+          {
+            "text": "did",
+            "risk": "low",
+            "_whisper_prob": 0.9967
+          },
+          {
+            "text": "not",
+            "risk": "low",
+            "_whisper_prob": 0.9986
+          },
+          {
+            "text": "see",
+            "risk": "low",
+            "_whisper_prob": 0.9994
+          },
+          {
+            "text": "his",
+            "risk": "low",
+            "_whisper_prob": 0.9979
+          },
+          {
+            "text": "face",
+            "risk": "low",
+            "_whisper_prob": 0.9995
+          },
+          {
+            "text": "properly.",
+            "risk": "low",
+            "_whisper_prob": 0.988
+          }
+        ]
+      },
+      "_avg_logprob": -0.07883122563362122,
+      "_no_speech_prob": 0.4931700825691223
+    },
+    {
+      "id": 31,
+      "speaker": "Speaker",
+      "start": 288.82,
+      "end": 293.86,
+      "paraRisk": "high",
+      "words": {
+        "Whisper (small)": [
+          {
+            "text": "Understood,",
+            "risk": "high",
+            "_whisper_prob": 0.0452
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.9448
+          },
+          {
+            "text": "time",
+            "risk": "low",
+            "_whisper_prob": 0.996
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.9987
+          },
+          {
+            "text": "now",
+            "risk": "low",
+            "_whisper_prob": 0.9866
+          },
+          {
+            "text": "9",
+            "risk": "low",
+            "_whisper_prob": 0.9597
+          },
+          {
+            "text": ".56",
+            "risk": "low",
+            "_whisper_prob": 0.9609
+          },
+          {
+            "text": "in",
+            "risk": "low",
+            "_whisper_prob": 0.9819
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          },
+          {
+            "text": "morning,",
+            "risk": "low",
+            "_whisper_prob": 0.9973
+          },
+          {
+            "text": "and",
+            "risk": "low",
+            "_whisper_prob": 0.9939
+          },
+          {
+            "text": "the",
+            "risk": "low",
+            "_whisper_prob": 0.997
+          },
+          {
+            "text": "interview",
+            "risk": "low",
+            "_whisper_prob": 0.999
+          },
+          {
+            "text": "is",
+            "risk": "low",
+            "_whisper_prob": 0.995
+          },
+          {
+            "text": "concluded.",
+            "risk": "low",
+            "_whisper_prob": 0.9773
+          }
+        ]
+      },
+      "_avg_logprob": -0.1453862190246582,
+      "_no_speech_prob": 0.8868308067321777
+    }
+  ]
+}

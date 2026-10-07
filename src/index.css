@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Colour tokens as CSS variables (space-separated RGB channels so Tailwind's
+   rgb(var(--x) / <alpha-value>) can apply opacity utilities). Light values in
+   :root, dark values under .dark — a single class on <html> flips everything.
+   Light ink is effectively black (#05080d) with the muted/faint tiers and the
+   border tokens kept proportionally dark, so text AND the surrounding chrome
+   (button/panel outlines) read solid.
+--------------------------------------------------------------------------- */
+:root {
+  --surface: 255 255 255;
+  --surface-muted: 244 246 249; /* page background */
+  --surface-subtle: 233 237 243; /* subtle fills / hovers */
+  --border: 205 211 220;
+  --border-strong: 165 174 187;
+  --ink: 5 8 13; /* primary text — effectively black, minimal cool cast */
+  --ink-muted: 36 45 58;
+  --ink-faint: 68 78 93;
+  --brand: 51 73 138;
+  --brand-dark: 40 55 107;
+  --brand-bg: 238 242 251;
+  --brand-active: 204 238 255;
+  --accent: 245 158 11;
+  --accent-dark: 217 140 0;
+  --accent-bg: 255 246 230;
+  --risk-high: 220 38 38;
+  --risk-high-bg: 252 228 228;
+  --risk-med: 217 119 6;
+  --risk-med-bg: 253 238 212;
+  --focus: 124 58 237;
+  --focus-bg: 243 240 254;
+  --verified: 22 101 52;
+  --verified-bg: 238 247 240;
+  --verified-bar: 34 197 94;
+  --change-ins: 37 99 235;
+  --change-ins-bg: 238 244 255;
+  --change-del: 100 116 139;
+  --change-del-bg: 241 245 249;
+  --change-bar: 37 99 235;
+  --warning: 180 35 24;
+  --warning-bg: 253 236 235;
+  --warning-border: 226 75 74;
+  --speaker-officer: 51 73 138;
+  --speaker-witness: 109 40 217;
+  --scrollbar: 203 210 221;
+  --scrollbar-hover: 185 192 204;
+}
+
+.dark {
+  --surface: 30 35 43; /* elevated card */
+  --surface-muted: 21 24 29; /* page background — darkest */
+  --surface-subtle: 42 48 58; /* fills / hovers */
+  --border: 54 62 74;
+  --border-strong: 74 83 96;
+  --ink: 238 241 246; /* primary text — bright near-white (mirrors the deeper light ink) */
+  --ink-muted: 192 199 209;
+  --ink-faint: 146 154 168;
+  --brand: 91 116 196; /* mid navy — white text on brand buttons stays legible */
+  --brand-dark: 74 99 176;
+  --brand-bg: 26 34 51;
+  --brand-active: 30 58 95; /* active/selected segment on dark */
+  --accent: 251 191 36;
+  --accent-dark: 245 158 11;
+  --accent-bg: 58 47 20;
+  --risk-high: 248 113 113;
+  --risk-high-bg: 74 34 34;
+  --risk-med: 251 191 36;
+  --risk-med-bg: 71 52 22;
+  --focus: 167 139 250;
+  --focus-bg: 42 33 64;
+  --verified: 74 222 128;
+  --verified-bg: 22 40 28;
+  --verified-bar: 34 197 94;
+  --change-ins: 96 165 250;
+  --change-ins-bg: 22 35 61;
+  --change-del: 148 163 184;
+  --change-del-bg: 35 42 51;
+  --change-bar: 96 165 250;
+  --warning: 248 113 113;
+  --warning-bg: 58 29 27;
+  --warning-border: 226 75 74;
+  --speaker-officer: 141 160 219;
+  --speaker-witness: 167 139 250;
+  --scrollbar: 60 68 79;
+  --scrollbar-hover: 80 90 104;
+}
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    @apply bg-surface text-ink text-sm antialiased;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-brand/40;
+  }
+
+  /* Scrollbars — calm, cool gray; follows the theme via CSS vars. */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--scrollbar));
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(var(--scrollbar-hover));
+    background-clip: content-box;
+    border: 2px solid transparent;
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+  }
+}

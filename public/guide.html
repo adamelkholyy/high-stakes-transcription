@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reviewer's Guide — Transcript Review</title>
+<style>
+  /* ---- App colour tokens (light UI), reproduced so swatches match the tool ---- */
+  :root{
+    --risk-high:#DC2626; --risk-high-bg:#FCE4E4;
+    --risk-med:#D97706;  --risk-med-bg:#FDEED4;
+    --focus:#7C3AED;     --focus-bg:#F3F0FE;
+    --verified:#166534;  --verified-bg:#EEF7F0; --verified-bar:#22C55E;
+    --ins:#2563EB;       --ins-bg:#EEF4FF;
+    --del:#64748B;       --del-bg:#F1F5F9;
+    --brand:#33498A;     --brand-active:#CCEEFF; --brand-bg:#EEF2FB;
+
+    /* ---- Page chrome (light) ---- */
+    --bg:#f4f6fb; --card:#ffffff; --ink:#1c2430; --ink-muted:#5b6675;
+    --ink-faint:#8b95a4; --line:#e4e8f0; --line-strong:#cfd6e2;
+    --nav:#101828; --nav-ink:#e7ecf5; --code-bg:#f6f8fc;
+    --shadow:0 1px 2px rgba(16,24,40,.04),0 8px 24px rgba(16,24,40,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0e1420; --card:#161e2c; --ink:#e7ecf5; --ink-muted:#a3aebf;
+      --ink-faint:#71809a; --line:#26303f; --line-strong:#33415a;
+      --nav:#080c14; --nav-ink:#e7ecf5; --code-bg:#0f1622;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.4);
+    }
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth; scroll-padding-top:76px}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.62; font-size:15.5px; -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+  /* ---- Sticky nav ---- */
+  nav.top{
+    position:sticky; top:0; z-index:50; background:var(--nav); color:var(--nav-ink);
+    display:flex; align-items:center; gap:6px; flex-wrap:wrap;
+    padding:10px 20px; box-shadow:0 2px 10px rgba(0,0,0,.15);
+  }
+  nav.top .brand{font-weight:700; margin-right:14px; font-size:14.5px; letter-spacing:.01em; white-space:nowrap}
+  nav.top .brand span{opacity:.6; font-weight:400}
+  nav.top a{
+    color:var(--nav-ink); text-decoration:none; font-size:12.5px; opacity:.72;
+    padding:5px 9px; border-radius:6px; white-space:nowrap;
+  }
+  nav.top a:hover{opacity:1; background:rgba(255,255,255,.08)}
+
+  /* ---- Layout ---- */
+  .wrap{max-width:920px; margin:0 auto; padding:0 22px 96px}
+  header.hero{padding:52px 0 26px; text-align:left}
+  header.hero .kicker{
+    display:inline-block; font-size:11px; font-weight:700; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--brand); background:var(--brand-bg);
+    padding:5px 11px; border-radius:999px; margin-bottom:16px;
+  }
+  header.hero h1{font-size:38px; line-height:1.12; margin:0 0 12px; letter-spacing:-.01em}
+  header.hero p.lede{font-size:18px; color:var(--ink-muted); margin:0; max-width:60ch}
+
+  section{margin-top:44px}
+  h2{
+    font-size:13px; text-transform:uppercase; letter-spacing:.1em; color:var(--brand);
+    margin:0 0 4px; font-weight:800;
+  }
+  h2 + .h2sub{font-size:26px; font-weight:700; margin:0 0 18px; letter-spacing:-.01em; line-height:1.2}
+  h3{font-size:18px; margin:26px 0 8px; font-weight:700}
+  p{margin:0 0 14px}
+  .muted{color:var(--ink-muted)}
+  .faint{color:var(--ink-faint)}
+
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; box-shadow:var(--shadow); margin:0 0 16px;
+  }
+  .card.tight{padding:16px 18px}
+  .grid{display:grid; gap:16px}
+  @media(min-width:680px){ .grid.cols-2{grid-template-columns:1fr 1fr} .grid.cols-3{grid-template-columns:1fr 1fr 1fr} }
+
+  /* ---- Golden-rule / callout banners ---- */
+  .banner{
+    border-radius:14px; padding:18px 22px; margin:0 0 16px;
+    border:1px solid; display:flex; gap:14px; align-items:flex-start;
+  }
+  .banner .ic{font-size:22px; line-height:1.2; flex:none}
+  .banner.rule{background:var(--brand-bg); border-color:rgba(51,73,138,.24); }
+  .banner.warn{background:var(--risk-med-bg); border-color:rgba(217,119,6,.4); }
+  .banner.info{background:var(--focus-bg); border-color:rgba(124,58,237,.28); }
+  .banner b{color:var(--ink)}
+
+  /* ---- Transcript swatches (screenshot-accurate; fixed light UI) ---- */
+  .demo{
+    background:#ffffff; color:#1a1a1a; border:1px solid #e4e8f0; border-radius:10px;
+    padding:16px 18px; font-size:15.5px; line-height:1.75;
+  }
+  .demo .spk{font-size:11px; font-weight:700; letter-spacing:.04em; color:#5b6675; display:block; margin-bottom:2px}
+  .demo .t{font-family:"JetBrains Mono",monospace; color:#8b95a4; font-size:12px}
+
+  /* word marks */
+  .w{border-radius:3px; padding:0 2px}
+  .w-high{background:var(--risk-high-bg); text-decoration:underline; text-decoration-color:var(--risk-high);
+    text-decoration-thickness:2px; text-underline-offset:3px}
+  .w-med{background:var(--risk-med-bg); text-decoration:underline; text-decoration-color:var(--risk-med);
+    text-decoration-style:dotted; text-underline-offset:3px}
+  .w-focus{background:var(--focus-bg); text-decoration:underline; text-decoration-color:var(--focus);
+    text-decoration-thickness:2px; text-underline-offset:3px}
+  .w-edit .old{text-decoration:line-through; color:rgb(147 158 174); margin-right:3px}
+  .w-edit .new{color:var(--ins); font-weight:600; text-decoration:underline; text-decoration-color:var(--ins);
+    text-decoration-thickness:2px; text-underline-offset:3px}
+  .w-del{position:relative; background:var(--del-bg); text-decoration:line-through; text-decoration-thickness:2px;
+    color:rgb(139 151 168); padding:0 3px; border-radius:3px}
+  .w-del::after{content:"✕"; position:absolute; top:-8px; right:-6px; font-size:8px; font-weight:700;
+    background:var(--del); color:#fff; width:13px; height:13px; border-radius:999px; line-height:13px; text-align:center}
+
+  /* sentence tints */
+  .s-high{background:rgb(253 236 236); box-shadow:0 0 0 1px rgba(220,38,38,.2);
+    border-radius:4px; padding:2px 6px}
+  .s-med{background:rgb(254 243 225); box-shadow:0 0 0 1px rgba(217,119,6,.2);
+    border-radius:4px; padding:2px 6px}
+  .s-verified{background:rgb(245 250 246); box-shadow:0 0 0 1px rgba(34,197,94,.3);
+    border-radius:6px; padding:8px 10px}
+  .s-ins{background:var(--ins-bg); box-shadow:0 0 0 1px rgba(37,99,235,.25); border-radius:4px; padding:2px 6px}
+
+  /* ---- legend chips ---- */
+  .legend{display:flex; flex-wrap:wrap; gap:10px 14px; margin:6px 0 0}
+  .chip{display:inline-flex; align-items:center; gap:7px; font-size:13px; background:var(--card);
+    border:1px solid var(--line); border-radius:999px; padding:5px 11px 5px 8px}
+  .dot{width:11px; height:11px; border-radius:999px; flex:none}
+  .swatch{width:26px; height:15px; border-radius:4px; flex:none; border:1px solid rgba(0,0,0,.08)}
+
+  /* ---- pills / buttons that mimic the UI ---- */
+  .ui-btn{display:inline-flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600;
+    border-radius:7px; padding:5px 11px; border:1px solid var(--line-strong); background:var(--card); color:var(--ink)}
+  .ui-btn.primary{background:var(--brand); color:#fff; border-color:var(--brand)}
+  .ui-btn.verify{color:var(--verified); border-color:rgba(22,101,52,.4);
+    background:rgb(245 250 246)}
+  .ui-tag{display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; border-radius:999px; padding:2px 9px}
+  .ui-tag.edited{color:var(--ins); background:var(--ins-bg)}
+  .ui-tag.verified{color:var(--verified); background:var(--verified-bg)}
+
+  /* segmented control mock */
+  .seg{display:inline-flex; border:1px solid var(--line-strong); border-radius:8px; overflow:hidden; font-size:12.5px}
+  .seg span{padding:6px 12px; color:var(--ink-muted); border-left:1px solid var(--line)}
+  .seg span:first-child{border-left:none}
+  .seg span.on{background:var(--brand); color:#fff}
+
+  /* ---- tables ---- */
+  table{width:100%; border-collapse:collapse; font-size:13.5px; margin:4px 0}
+  th,td{text-align:left; padding:9px 11px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-muted); font-weight:700; background:var(--code-bg)}
+  td .mono{font-size:12.5px}
+  .tickY{color:var(--verified); font-weight:700}
+  .tickN{color:var(--ink-faint)}
+  .scrollx{overflow-x:auto; border:1px solid var(--line); border-radius:12px}
+  .scrollx table{margin:0}
+  .scrollx th:first-child,.scrollx td:first-child{position:sticky; left:0; background:var(--card)}
+  .scrollx th:first-child{background:var(--code-bg)}
+
+  kbd{font-family:"JetBrains Mono",monospace; font-size:12px; background:var(--code-bg); border:1px solid var(--line-strong);
+    border-bottom-width:2px; border-radius:5px; padding:2px 7px; color:var(--ink)}
+
+  /* ---- screen-at-a-glance diagram ---- */
+  .screen{border:1px solid var(--line-strong); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); font-size:12px}
+  .screen .row{display:flex}
+  .screen .zone{padding:12px 12px; position:relative}
+  .screen .num{position:absolute; top:8px; left:8px; width:20px; height:20px; border-radius:999px; background:var(--brand);
+    color:#fff; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center}
+  .screen .z-top{flex:1; background:var(--brand); color:#fff; padding-left:36px}
+  .screen .z-left{width:23%; background:var(--focus-bg); border-right:1px solid var(--line); min-height:150px; padding-left:34px}
+  .screen .z-mid{flex:1; background:var(--card); padding-left:34px}
+  .screen .z-right{width:26%; background:var(--code-bg); border-left:1px solid var(--line); padding-left:34px}
+  .screen .z-bot{flex:1; background:var(--nav); color:var(--nav-ink); padding-left:36px}
+  .screen .lbl{font-weight:700; margin-bottom:3px}
+  .screen .z-top .lbl,.screen .z-bot .lbl{color:#fff}
+  .callouts{margin-top:14px; display:grid; gap:8px}
+  @media(min-width:680px){ .callouts{grid-template-columns:1fr 1fr} }
+  .callout{display:flex; gap:10px; align-items:flex-start; font-size:14px}
+  .callout .num{flex:none; width:22px; height:22px; border-radius:999px; background:var(--brand); color:#fff;
+    font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:1px}
+
+  /* ---- mock report ---- */
+  .report{border:1px solid var(--line-strong); border-radius:12px; overflow:hidden; box-shadow:var(--shadow); background:#fff; color:#1a1a1a}
+  .report .rhead{padding:18px 20px 14px; border-bottom:1px solid #e5e7eb}
+  .report h4{margin:0 0 2px; font-size:17px; color:#1a1a1a}
+  .report .rsub{font-size:12px; color:#6b7280; margin:0}
+  .report .rsummary{display:grid; grid-template-columns:1fr 1fr; gap:2px 24px; background:#f8f9fa; border:1px solid #e5e7eb;
+    border-radius:8px; padding:12px 16px; font-size:12px; margin:14px 20px}
+  .report .rsummary dt{color:#6b7280; font-size:10px; text-transform:uppercase; letter-spacing:.05em}
+  .report .rsummary dd{margin:0 0 6px; font-weight:700; color:#1a1a1a}
+  .report .rtoolbar{display:flex; gap:8px; align-items:center; padding:0 20px 8px}
+  .report .rtoolbar .b{font-size:12px; padding:5px 12px; border:1px solid #e5e7eb; border-radius:6px; background:#fff; color:#1a1a1a}
+  .report .rtoolbar .b.on{background:#1a1a1a; color:#fff; border-color:#1a1a1a}
+  .report .rbody{padding:2px 20px 14px; font-size:13.5px}
+  .report .rseg{margin:0 0 10px}
+  .report .rseg .h{font-size:11px; color:#6b7280}
+  .report .rseg .h .tm{font-family:monospace; color:#9ca3af}
+  .report .rseg .h .sp{font-weight:700; color:#1a1a1a}
+  .report .rseg .h .vf{color:#047857; font-weight:600; margin-left:6px}
+  .report .rold{text-decoration:line-through; color:#b91c1c; margin-right:3px}
+  .report .rnew{color:#15803d; font-weight:600}
+  .report .rlog{margin:2px 20px 18px}
+  .report .rlog table{font-size:11.5px}
+  .report .rlog th{background:#f8f9fa; color:#6b7280}
+  .report .rlog td,.report .rlog th{border-color:#e5e7eb; padding:6px 8px}
+  .report .kb{font-size:10px; padding:1px 6px; border-radius:4px; white-space:nowrap}
+  .kb-edit{background:#dbeafe; color:#1d4ed8} .kb-del{background:#fee2e2; color:#b91c1c}
+  .kb-verify{background:#d1fae5; color:#047857}
+
+  .footer{margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:12.5px; color:var(--ink-faint)}
+  .anchor{scroll-margin-top:76px}
+  .step{counter-reset:none; padding-left:0; list-style:none; margin:0}
+  .step li{position:relative; padding:0 0 12px 34px; margin:0}
+  .step li::before{counter-increment:s; content:counter(s); position:absolute; left:0; top:0;
+    width:24px; height:24px; border-radius:999px; background:var(--brand-bg); color:var(--brand);
+    font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center}
+  ol.step{counter-reset:s}
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="brand">Transcript Review <span>· Reviewer's Guide</span></div>
+  <a href="#glance">The screen</a>
+  <a href="#highlights">Highlights</a>
+  <a href="#correct">Corrections</a>
+  <a href="#panel">Review panel</a>
+  <a href="#export">Exports</a>
+  <a href="#ai">AI tools</a>
+  <a href="#bars">Toolbar & player</a>
+  <a href="#versions">Versions</a>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <span class="kicker">Reviewer's Guide</span>
+    <h1>Checking an AI transcript, the fast way</h1>
+    <p class="lede">This tool takes a recorded interview, has speech-recognition AI produce a first-draft
+    transcript, and then helps <b>you</b> — the reviewer — find and fix the parts the machine most likely
+    got wrong, while listening against the audio.</p>
+  </header>
+
+  <div class="banner info">
+    <div class="ic">🧪</div>
+    <div><b>About this online demo.</b> You're looking at a public demonstration on a test server, loaded with one
+    sample interview so you can try everything without any setup. The AI features here run on the project's cloud
+    service (not on your own computer), so please explore with the built-in sample and <b>don't type real,
+    sensitive case details</b>. Audio-to-text transcription and microphone recording are switched off in this demo —
+    everything else is live.</div>
+  </div>
+
+  <!-- ============================================================ -->
+  <section id="glance" class="anchor">
+    <h2>Orientation</h2>
+    <div class="h2sub">The screen at a glance</div>
+    <p class="muted">Five regions. The transcript sits in the middle; tools and status wrap around it.</p>
+
+    <div class="screen">
+      <div class="row">
+        <div class="zone z-top"><span class="num">1</span><div class="lbl">Top toolbar</div>Your name · file &amp; settings</div>
+      </div>
+      <div class="row">
+        <div class="zone z-left"><span class="num">2</span><div class="lbl">AI tools</div>Find · Assistant · Conflicts · Timeline · Outline</div>
+        <div class="zone z-mid"><span class="num">3</span><div class="lbl">Transcript</div>The words, with risk highlights. Click a word to fix it; press <b>V</b> to verify a line.</div>
+        <div class="zone z-right"><span class="num">4</span><div class="lbl">Review panel</div>Progress · change log · export</div>
+      </div>
+      <div class="row">
+        <div class="zone z-bot"><span class="num">5</span><div class="lbl">Player</div>Play · skip 10s · waveform · speed</div>
+      </div>
+    </div>
+
+    <div class="callouts">
+      <div class="callout"><span class="num">1</span><div><b>Top toolbar</b> — set your reviewer name (required), load files, and open settings.</div></div>
+      <div class="callout"><span class="num">2</span><div><b>AI tools</b> (left) — search, ask questions, and see AI-found conflicts, a timeline and an outline. Only in the “AI toolkit” and “Complete” versions.</div></div>
+      <div class="callout"><span class="num">3</span><div><b>Transcript</b> (centre) — where you read, correct and verify. The heart of the tool.</div></div>
+      <div class="callout"><span class="num">4</span><div><b>Review panel</b> (right) — how much you've checked, a log of every change, and the export buttons.</div></div>
+      <div class="callout"><span class="num">5</span><div><b>Player</b> (bottom) — transport controls and the waveform. Click the waveform to jump anywhere.</div></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="highlights" class="anchor">
+    <h2>The centre column · part 1</h2>
+    <div class="h2sub">Reading the highlights</div>
+    <p>The colours tell you <b>where to look first</b>. They flag where the speech-recognition was shaky — not
+    where it's definitely wrong. Nothing is coloured when the AI was confident.</p>
+
+    <h3>Word-level marks</h3>
+    <div class="card">
+      <div class="demo">
+        <span class="spk">WITNESS</span>
+        <span class="t">[1:24]</span>
+        He said the <span class="w w-high">Verrastro</span> was parked near the
+        <span class="w w-med">junction</span> before the car left.
+      </div>
+      <div class="legend" style="margin-top:14px">
+        <span class="chip"><span class="swatch" style="background:#fff;border-color:#cfd6e2"></span> Plain — the AI was confident. Most of the transcript looks like this.</span>
+        <span class="chip"><span class="swatch" style="background:var(--risk-med-bg);border-bottom:2px dotted var(--risk-med)"></span> <b>Amber, dotted underline</b> — medium risk. Some uncertainty; worth a glance.</span>
+        <span class="chip"><span class="swatch" style="background:var(--risk-high-bg);border-bottom:2px solid var(--risk-high)"></span> <b>Red, solid underline</b> — high risk. The models disagreed most here; check first.</span>
+      </div>
+      <p class="muted" style="margin:14px 0 0; font-size:13.5px">Hover any marked word for a one-line tip
+      (e.g. <em>“High uncertainty — click to inspect”</em>). A high-risk line also shows a small red dot next to
+      the speaker name.</p>
+    </div>
+
+    <h3>Whole-sentence tint</h3>
+    <p>Some versions shade the <b>entire sentence</b> instead of (or as well as) single words — useful when a
+    whole line is doubtful, or when a line is <em>important</em> regardless of confidence.</p>
+    <div class="card">
+      <div class="demo">
+        <span class="spk">SUSPECT</span> <span class="t">[3:02]</span>
+        <div class="s-high" style="margin:6px 0">I was at home the whole evening, I never went out.</div>
+        <div class="s-med" style="margin:6px 0">We took a taxi to the station at about ten.</div>
+        Plain lines stay uncoloured.
+      </div>
+      <p style="margin:16px 0 8px"><b>The “Sentences” switch.</b> In sentence-capable versions a small control in the
+      transcript header lets you choose what drives the tint:</p>
+      <div class="seg" style="margin-bottom:12px">
+        <span>Sentences</span><span class="on">Confidence</span><span>Importance</span><span>Both</span>
+      </div>
+      <ul class="muted" style="margin:0; padding-left:18px; font-size:14px">
+        <li><b>Confidence</b> — tint by how sure the speech-recognition was (red = likely mis-heard).</li>
+        <li><b>Importance</b> — an AI ranks which lines carry the most case-relevant content and highlights those.</li>
+        <li><b>Both</b> — <span style="color:var(--risk-high);font-weight:600">red</span> = likely mis-transcribed <em>and</em> important (check first);
+        <span style="color:var(--risk-med);font-weight:600">amber</span> = only one of the two signals fired.</li>
+      </ul>
+    </div>
+    <div class="banner info">
+      <div class="ic">⚑</div>
+      <div>If the <b>Conflicts</b> tool (see below) flags a line, that line also gets an <b>amber</b> tint in the
+      transcript, so contradictions surface where you're reading.</div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="correct" class="anchor">
+    <h2>The centre column · part 2</h2>
+    <div class="h2sub">Making corrections &amp; verifying</div>
+
+    <h3>Fixing a word</h3>
+    <ol class="step">
+      <li><b>Click the word.</b> A small popup opens with the alternatives the different AI models proposed, plus a box to type your own correction.</li>
+      <li><b>Pick a candidate or type the right word</b>, then <b>Apply</b> — or, if the word is a hallucination that was never said, press <b>Delete (hallucination)</b>.</li>
+      <li>The change is recorded instantly in the right-hand log, tagged with your name and the time.</li>
+    </ol>
+
+    <div class="grid cols-2">
+      <div class="card tight">
+        <div class="faint" style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">After you edit a word</div>
+        <div class="demo">…parked near the <span class="w-edit"><span class="old">junction</span><span class="new">junkshun</span></span> before…</div>
+        <p class="muted" style="font-size:13px;margin:10px 0 0">Original in <span style="color:var(--del)">grey strikethrough</span>,
+        your correction in <span style="color:var(--ins);font-weight:600">blue</span>. The line/segment also gets an
+        <span class="ui-tag edited">✎ edited</span> tag.</p>
+      </div>
+      <div class="card tight">
+        <div class="faint" style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">After you remove a word</div>
+        <div class="demo">…he said <span class="w-del">the the</span> car was red…</div>
+        <p class="muted" style="font-size:13px;margin:10px 0 0">A removed word is struck through with a small
+        <b style="color:var(--del)">✕</b> badge. Click it again to restore.</p>
+      </div>
+    </div>
+
+    <h3>Rewriting a whole line</h3>
+    <p>To fix more than one word at once, <b>double-click the line</b> (or use its pencil button) and retype the
+    sentence. The rewrite shows as a blue block:</p>
+    <div class="card tight">
+      <div class="demo"><span class="s-ins">We took a taxi to the station at about ten.</span> <span class="ui-tag edited">rewritten</span></div>
+    </div>
+
+    <div class="banner info">
+      <div class="ic">👁</div>
+      <div><b>Clean view vs. Show changes.</b> By default you see your edits marked up (tracked-changes style). A
+      toggle switches to a <b>clean</b> view showing only the final, corrected text — handy for reading the result
+      as it will be filed.</div>
+    </div>
+
+    <h3>Verifying a line</h3>
+    <p>Verifying is how you say <em>“I've listened to this and it's right.”</em> Select a line and press <kbd>V</kbd>
+    (or <kbd>Shift</kbd>+<kbd>V</kbd> to verify and jump to the next). Verified lines turn a calm green and the
+    button reads:</p>
+    <div class="card tight">
+      <div class="demo">
+        <div class="s-verified">
+          <span class="spk" style="margin-bottom:4px">OFFICER <span class="ui-btn verify" style="margin-left:8px">✓ Verified</span></span>
+          Can you tell me where you were on the night of the fourteenth?
+        </div>
+      </div>
+    </div>
+    <p class="muted" style="font-size:13.5px">There's no separate “done” list — the right-hand panel simply counts how
+    many lines you've verified out of the total, and how many high-risk lines are still outstanding.</p>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="panel" class="anchor">
+    <h2>The right column</h2>
+    <div class="h2sub">The review panel</div>
+    <p>A narrow panel on the right that keeps score and holds your exports. It has three parts.</p>
+
+    <div class="grid cols-3">
+      <div class="card tight">
+        <h3 style="margin-top:0">1 · Progress</h3>
+        <p class="muted" style="font-size:13.5px"><span class="mono">Verified 6 / 24 segments</span>, with a thin
+        green bar. Below it, <span style="color:var(--risk-high);font-weight:600">“3 high-risk left”</span> (red until
+        you've cleared them, then <span style="color:var(--verified);font-weight:600">“high-risk done”</span>).</p>
+      </div>
+      <div class="card tight">
+        <h3 style="margin-top:0">2 · Recent changes</h3>
+        <p class="muted" style="font-size:13.5px">A live log of everything you do — every edit, removal and
+        verification — newest first, each with your name, the time, the location and an optional reason.</p>
+      </div>
+      <div class="card tight">
+        <h3 style="margin-top:0">3 · Export</h3>
+        <p class="muted" style="font-size:13.5px">A collapsible section (see the next part) with every download:
+        the report, the corrected transcript, and the logs.</p>
+      </div>
+    </div>
+
+    <h3>Reading the change log</h3>
+    <div class="card">
+      <div class="legend">
+        <span class="chip"><span class="dot" style="background:var(--ins)"></span> <b>Edited</b> — <span style="text-decoration:line-through;color:var(--del)">junction</span> → junkshun</span>
+        <span class="chip"><span class="dot" style="background:var(--risk-high)"></span> <b>Removed</b> — the → (deleted)</span>
+        <span class="chip"><span class="dot" style="background:var(--verified-bar)"></span> <b>Verified</b> — segment checked</span>
+        <span class="chip"><span class="dot" style="background:var(--line-strong)"></span> <b>Un-verified</b> — undone</span>
+        <span class="chip"><span class="dot" style="background:var(--ins)"></span> <b>Speaker / Split / Merge</b> — line changes</span>
+      </div>
+      <p class="muted" style="font-size:13px;margin:14px 0 0">This log is your audit trail — a full, timestamped
+      record of who changed what, and why. It's exactly what goes into the report and the audit-trail files below.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="export" class="anchor">
+    <h2>Downloads</h2>
+    <div class="h2sub">What you can export</div>
+    <p>Open the <b>Export</b> section in the right-hand panel. The big blue button at the top is the one most people
+    want; the rest are there when you need the raw data.</p>
+
+    <div class="scrollx" style="margin-bottom:18px">
+      <table>
+        <thead><tr><th>Button</th><th>What you get</th><th>Format</th><th>File</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="ui-btn primary">Download report (HTML)</span></td>
+            <td><b>The main deliverable.</b> One self-contained page: the full corrected transcript <em>plus</em> a
+            complete log of what changed, when and why. Opens in any browser; print to PDF from there.</td>
+            <td>HTML</td>
+            <td class="mono">transcript-report-…​.html</td>
+          </tr>
+          <tr>
+            <td>Reviewed · <span class="ui-btn">TXT</span> <span class="ui-btn">JSON</span></td>
+            <td>Your corrected transcript. TXT is plain and readable; JSON keeps every field (risk, edits, verify flags) for further processing.</td>
+            <td>Text / JSON</td>
+            <td class="mono">transcript-…​.txt / .json</td>
+          </tr>
+          <tr>
+            <td>Original · <span class="ui-btn">JSON</span></td>
+            <td>The untouched first-draft transcript as produced by the models. Re-upload it later to reuse the same audio without re-transcribing.</td>
+            <td>JSON</td>
+            <td class="mono">transcript-source-…​.json</td>
+          </tr>
+          <tr>
+            <td>Pipeline raw · <span class="ui-btn">JSON</span></td>
+            <td>The exact backend output before any tidying — for the technical team diagnosing the pipeline.</td>
+            <td>JSON</td>
+            <td class="mono">pipeline-raw-…​.json</td>
+          </tr>
+          <tr>
+            <td>Audit log · <span class="ui-btn">CSV</span> <span class="ui-btn">JSON</span></td>
+            <td>Just the change log — every edit, removal and verification in a spreadsheet-friendly table.</td>
+            <td>CSV / JSON</td>
+            <td class="mono">audit-trail-…​.csv / .json</td>
+          </tr>
+          <tr>
+            <td>Top bar · <span class="ui-btn">Save</span></td>
+            <td>The recorded audio file. <span class="faint">(Only appears after recording from a microphone — off in this online demo.)</span></td>
+            <td>Audio</td>
+            <td class="mono">recording-…​.webm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>What the report looks like</h3>
+    <p class="muted" style="font-size:13.5px">A faithful preview of the <b>Download report (HTML)</b> file — a
+    clean, printable document for a supervisor or case file:</p>
+
+    <div class="report">
+      <div class="rhead">
+        <h4>Reviewed transcript</h4>
+        <p class="rsub">A human-checked version of the automatic transcript, with a full record of every change.</p>
+      </div>
+      <dl class="rsummary">
+        <div><dt>Case</dt><dd>interview_2024-03-14_case447.wav</dd></div>
+        <div><dt>Reviewer</dt><dd>DC A. Morgan</dd></div>
+        <div><dt>Transcription model</dt><dd>ASR ensemble</dd></div>
+        <div><dt>Segments verified</dt><dd>18 / 24</dd></div>
+        <div><dt>Changes made</dt><dd>7 (2 removed)</dd></div>
+        <div><dt>Exported</dt><dd>14/03/2024, 16:52</dd></div>
+      </dl>
+      <div class="rtoolbar">
+        <span class="b on">Clean version</span><span class="b">Show changes</span>
+        <span style="font-size:11px;color:#9ca3af">Tip: print (Ctrl/Cmd+P) to save a PDF.</span>
+      </div>
+      <div class="rbody">
+        <div class="rseg">
+          <div class="h"><span class="tm">[1:24]</span> <span class="sp">WITNESS</span> <span class="vf">✓ verified</span></div>
+          He said the <span class="rold">Verrastro</span><span class="rnew">Ferrari</span> was parked near the junction.
+        </div>
+        <div class="rseg">
+          <div class="h"><span class="tm">[3:02]</span> <span class="sp">SUSPECT</span></div>
+          I was at home the whole evening, <span class="rold">the</span> I never went out.
+        </div>
+      </div>
+      <div class="rlog">
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:#6b7280;margin:0 0 6px;font-weight:700">What was changed, and when</div>
+        <table>
+          <thead><tr><th>#</th><th>When</th><th>Reviewer</th><th>Location</th><th>Action</th><th>Change</th><th>Reason</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td style="font-family:monospace;color:#6b7280">16:41</td><td>DC A. Morgan</td><td style="font-family:monospace;color:#6b7280">[1:24] WITNESS</td><td><span class="kb kb-edit">Edited</span></td><td><span style="text-decoration:line-through;color:#b91c1c">Verrastro</span> → <span style="color:#15803d;font-weight:600">Ferrari</span></td><td style="color:#6b7280;font-style:italic">misheard make</td></tr>
+            <tr><td>2</td><td style="font-family:monospace;color:#6b7280">16:43</td><td>DC A. Morgan</td><td style="font-family:monospace;color:#6b7280">[3:02] SUSPECT</td><td><span class="kb kb-del">Removed</span></td><td><span style="text-decoration:line-through;color:#b91c1c">the</span> → (removed)</td><td style="color:#9ca3af">—</td></tr>
+            <tr><td>3</td><td style="font-family:monospace;color:#6b7280">16:52</td><td>DC A. Morgan</td><td style="font-family:monospace;color:#6b7280">[1:24] WITNESS</td><td><span class="kb kb-verify">Verified</span></td><td>Marked segment as verified</td><td style="color:#9ca3af">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="ai" class="anchor">
+    <h2>The left column</h2>
+    <div class="h2sub">The AI tools</div>
+    <p>Available in the <b>AI toolkit</b> and <b>Complete</b> versions. They help you navigate and cross-check —
+    every result <b>jumps the audio</b> to the right moment when you click it. All AI-suggested, all to be verified.</p>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3 style="margin-top:0">🔍 Find</h3>
+        <p class="muted" style="font-size:14px">Search for a name, object or topic. It finds exact matches and close
+        variants instantly, then an AI adds lines that are <em>about</em> your query even when they don't use the
+        same words. You type the term and press <b>Find</b>; each hit shows a snippet and jumps the audio.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">💬 Assistant</h3>
+        <p class="muted" style="font-size:14px">Ask a plain question about the interview — <em>“was a weapon
+        mentioned?”</em>, <em>“who paid for the taxi?”</em> The answer cites the exact lines it drew from; click a
+        citation to hear it. Answers are for orientation only and are never part of the record.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">⚠️ Conflicts</h3>
+        <p class="muted" style="font-size:14px">Runs automatically and flags pairs of statements that appear to
+        <b>contradict</b> each other (time, place, person or claim). Each card has two “jump” buttons — one per
+        side — and both lines are tinted amber in the transcript. Listen to both before deciding.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">🕑 Timeline</h3>
+        <p class="muted" style="font-size:14px">Runs automatically and lists the concrete <b>events</b> described in
+        the recording, in order, with any spoken time (<em>“around ten o'clock”</em>). Click an event to jump
+        straight to that moment.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">📑 Outline</h3>
+        <p class="muted" style="font-size:14px">Opens a full-screen storyboard that breaks a long recording into
+        chapters — an overview paragraph and a chain of “part” cards you can jump into. Good for getting the shape of
+        a long interview quickly.</p>
+      </div>
+      <div class="card" style="background:var(--code-bg)">
+        <h3 style="margin-top:0">A note on “Importance”</h3>
+        <p class="muted" style="font-size:14px">There's no separate button for it — the <b>Importance</b> setting on
+        the Sentences switch (above) is the AI ranking which lines carry the most case-relevant content, and
+        highlighting those.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="bars" class="anchor">
+    <h2>The frame</h2>
+    <div class="h2sub">Top toolbar &amp; bottom player</div>
+
+    <h3>Top toolbar</h3>
+    <div class="card">
+      <table>
+        <tbody>
+          <tr><td style="width:150px"><b>Reviewer</b></td><td>Your name. <b>Set this first</b> — it's stamped on every change you make. If you start editing with it blank, the field <span style="color:var(--risk-high);font-weight:600">flashes red</span> as a reminder.</td></tr>
+          <tr><td><b>Audio… / Transcript…</b></td><td>Load your own audio or a transcript JSON in place of the sample. <span class="faint">(In this demo the sample is already loaded.)</span></td></tr>
+          <tr><td><b>Transcribe · Record · Speakers</b></td><td class="faint">Run the speech-recognition, record from a mic, and hint the number of speakers — <b>off in this online demo</b>.</td></tr>
+          <tr><td><b>Settings (⋯)</b></td><td>A menu with the transcription <b>Model</b>, the <b>Risk</b> signal, a track-changes on/off toggle, and <b>Light / Dark mode</b>.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Bottom player</h3>
+    <div class="card">
+      <p class="muted" style="font-size:14px;margin-top:0">Left to right: <b>Back 10s</b>, <b>Play/Pause</b>,
+      <b>Forward 10s</b>, the current time, the <b>waveform</b> (click to seek, drag to scrub), the total time, and a
+      <b>Speed</b> selector (0.5× – 2×).</p>
+      <div class="scrollx">
+        <table>
+          <thead><tr><th>Key</th><th>Action</th><th>Key</th><th>Action</th></tr></thead>
+          <tbody>
+            <tr><td><kbd>Space</kbd></td><td>Play / pause</td><td><kbd>V</kbd></td><td>Verify this line</td></tr>
+            <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>Seek ±5 seconds</td><td><kbd>Shift</kbd>+<kbd>V</kbd></td><td>Verify + next line</td></tr>
+            <tr><td><kbd>J</kbd> / <kbd>K</kbd></td><td>Previous / next line</td><td><kbd>R</kbd></td><td>Replay this line</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="faint" style="font-size:12.5px;margin:10px 0 0">The full list is behind the <b>Shortcuts</b> button
+      in the bottom-right corner.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <section id="versions" class="anchor">
+    <h2>Choosing</h2>
+    <div class="h2sub">The five versions</div>
+    <p>The opening screen offers five versions of the <em>same</em> interview and tools — they differ only in how
+    much is switched on. You can swap between them at any time with <b>“‹ Switch version”</b>. This is deliberate:
+    we'd love your view on which combination is most useful.</p>
+
+    <div class="scrollx">
+      <table>
+        <thead>
+          <tr>
+            <th>Capability</th>
+            <th>Word</th><th>Sentence</th><th>Word + sentence</th><th>AI toolkit</th><th>Complete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Word-level red/amber marks</td><td class="tickY">✓</td><td class="tickN">—</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickY">✓</td></tr>
+          <tr><td>Whole-sentence tint</td><td class="tickN">—</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickN">—</td><td class="tickY">✓</td></tr>
+          <tr><td>Confidence / Importance / Both switch</td><td class="tickN">—</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickN">—</td><td class="tickY">✓</td></tr>
+          <tr><td>Find · Assistant · Conflicts · Timeline · Outline</td><td class="tickN">—</td><td class="tickN">—</td><td class="tickN">—</td><td class="tickY">✓</td><td class="tickY">✓</td></tr>
+          <tr><td>Edit · remove · verify · export</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickY">✓</td><td class="tickY">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="font-size:13.5px;margin-top:12px">Every version shares the same core: audio, editing,
+    verifying, the change log and exports. Only the highlighting and the AI tools change. If you only try one, try
+    <b>Complete</b> — it has everything.</p>
+  </section>
+
+  <div class="footer">
+    Transcript Review — reviewer's guide · a research prototype from the Cambridge MLMI project on AI transcription
+    for high-stakes settings. AI outputs are suggestions to be verified against the audio, not an authoritative record.
+  </div>
+
+</div>
+</body>
+</html>

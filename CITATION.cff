@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "MLMI Transcript Review"
+type: software
+authors:
+  - family-names: "Xiang"
+    given-names: "Yishun"
+  - name: "Olubusolami-R"
+repository-code: "https://github.com/KOKONUMBERONE/mlmi-transcript-review"
+version: 1.0.0
+date-released: 2026-08-10
+license: MIT
+keywords:
+  - automatic speech recognition
+  - transcript review
+  - human-computer interaction
+abstract: >-
+  A local-first transcript-review research prototype combining uncertainty
+  visualisation, audio-linked correction, and an Ollama-backed evidence toolkit
+  for high-stakes interview review.
